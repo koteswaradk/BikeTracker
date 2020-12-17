@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_gravity="center_vertical"
+    
+    android:background="#FFEFEFEF">
+	
+    <TextView 	style="@style/TitleBar"
+        		android:text="@string/Settings" 
+        		android:id="@+id/tv"/>	
+        		 <ScrollView 
+   				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			>
+     <RelativeLayout
+          android:id="@+id/relative1"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_gravity="center_vertical"
+          android:gravity="center"
+           >
+          
+         <!--  <ImageView
+              android:id="@+id/uintimage"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+             
+              android:background="@drawable/units" /> -->
+           <ImageView
+              android:id="@+id/callsettingsimage"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+             
+              android:background="@drawable/callsettings"
+               />
+           
+           <CheckBox
+				android:id="@+id/autoanswercheck"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:layout_marginLeft="50dp"
+				android:text="@string/ExportTo" />
+				
+		   <CheckBox
+				android:id="@+id/smscheck"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:layout_marginLeft="50dp"
+				android:layout_below="@+id/autoanswercheck"
+				android:text="@string/smsautoresend" />
+     <!--
+     
+
+     
+
+         
+
+          <TextView
+              android:id="@+id/FuelUnit"
+              style="@style/TextViewStyleSettings"
+              android:layout_below="@id/tv"
+              android:text="@string/FuelUnit" />
+
+          <Spinner
+              android:id="@+id/fuelunit_spinner"
+              style="@style/SpinnerStyleSettings"
+              android:layout_below="@id/tv"
+              android:layout_toRightOf="@id/FuelUnit"
+              android:entries="@array/fuel_unit_array"
+              android:prompt="@string/fuel_unit_prompt" />
+
+          <TextView
+              android:id="@+id/DistanceUnit"
+              style="@style/TextViewStyleSettings"
+              android:layout_below="@id/FuelUnit"
+              android:text="@string/DistanceUnit" />
+
+          <Spinner
+              android:id="@+id/distanceunit_spinner"
+              style="@style/SpinnerStyleSettings1"
+              android:layout_below="@id/fuelunit_spinner"
+              android:layout_toRightOf="@id/DistanceUnit"
+              android:entries="@array/distance_unit_array"
+              android:prompt="@string/distance_unit_prompt" />
+
+          <ImageView
+              android:id="@+id/imageView1"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/DistanceUnit"
+              android:layout_marginTop="80dp"
+              android:src="@drawable/callsettings" />
+
+          <TextView
+              android:id="@+id/ExportTo"
+              style="@style/TextViewStyle5"
+              android:layout_below="@id/DistanceUnit"
+              android:text="@string/ExportTo" />
+
+          <CheckBox
+              android:id="@+id/autoanswercheck"
+              style="@style/SpinnerStyleSettings2"
+              android:layout_below="@id/distanceunit_spinner"
+              android:layout_toRightOf="@id/ExportTo"
+              android:entries="@array/export_array"
+              android:prompt="@string/export_prompt" />
+
+          <TextView
+              android:id="@+id/smsreplay"
+              style="@style/TextViewStyle5"
+              android:layout_above="@+id/ok_export_button"
+              android:layout_alignParentLeft="true"
+              android:text="@string/smsautoresend" />
+
+           <CheckBox
+               android:id="@+id/smscheck"
+               style="@style/SpinnerStyleSettings2"
+               android:layout_alignBottom="@+id/smsreplay"
+               android:layout_toRightOf="@+id/smsreplay"
+               android:entries="@array/export_array"
+               android:prompt="@string/export_prompt" />
+
+           <ImageButton
+               android:id="@+id/ok_export_button"
+               style="@style/ButtonStyle4"
+               android:layout_alignBottom="@+id/imageView1"
+               android:layout_alignRight="@+id/smscheck"
+               android:layout_marginBottom="26dp"
+               android:background="@drawable/ok" />
+
+           <ImageButton
+               android:id="@+id/ok_settings_unit_button"
+               style="@style/ButtonStyle4"
+               android:layout_above="@+id/smsreplay"
+               android:layout_alignRight="@+id/distanceunit_spinner"
+               android:background="@drawable/ok" /> -->
+
+      </RelativeLayout>
+	</ScrollView>
+      
+      
+</LinearLayout>

@@ -1,0 +1,384 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!--  <style name="AppTheme" parent="android:Theme.Light" /> -->
+    <style name="MyApp.Theme.Light.NoTitleBar" parent="@android:style/Theme.Light.NoTitleBar">
+     <item name="android:textColorPrimaryInverse">@android:color/primary_text_light</item>
+
+</style>
+<style name="PreferencesTheme">
+  
+    <item name="android:background">#FFEFEFEF</item>
+    <item name="android:textColor">#FF0D72A6</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:typeface">serif</item>
+    <item name="android:windowTitleBackgroundStyle">@style/TitleBarcall</item>
+    <item name="android:windowTitleSize">44dip</item>
+
+</style>
+
+
+    <style name="TitleBarcall">
+        
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#FF0D72A6</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_light</item>
+      
+        
+        
+    </style>
+    <style name="TitleBar">
+        
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#FF0D72A6</item>
+        <item name="android:layout_alignParentTop">true</item>
+        
+    </style>
+    
+     <style name="Scroller" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/slider_back</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+    
+   <style name="TextViewStyle">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">20dp</item>
+       <item name="android:layout_marginLeft">10dp</item>
+       
+   </style>
+   
+   
+   <style name="TextViewStyle1">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">32dp</item>
+       <item name="android:layout_marginLeft">10dp</item>
+       
+   </style>
+   
+   <style name="TextViewStyleSettings">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">100sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">38dp</item>
+       <item name="android:layout_marginLeft">40sp</item>
+       
+   </style>
+   
+      <style name="TextViewStyle2">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_marginTop">16dp</item>
+       <item name="android:layout_marginLeft">18dp</item>
+       
+   </style>
+   
+      
+      <style name="TextViewStyleAdd">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_marginTop">20dp</item>
+       <item name="android:layout_marginLeft">18dp</item>
+       
+   </style>
+   
+       <style name="TextViewStyleTrip">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_marginTop">18sp</item>
+       <item name="android:layout_marginLeft">18sp</item>
+       
+   </style>
+   
+       
+   
+       <style name="TextViewStyleTrip1">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_marginTop">20sp</item>
+       <item name="android:layout_marginLeft">18sp</item>
+       
+   </style>
+   
+        <style name="TextViewStyleTrip2">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_marginTop">24sp</item>
+       <item name="android:layout_marginLeft">18sp</item>
+       
+   </style>
+       
+        <style name="TextViewStyle3">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">50sp</item>
+       <item name="android:layout_marginLeft">20sp</item>
+       
+   </style>
+   
+   <style name="TextViewStyle4">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">20sp</item>
+       <item name="android:layout_marginLeft">20sp</item>
+       
+   </style>
+   
+   
+   <style name="TextViewStyle5">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">100sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">130sp</item>
+       <item name="android:layout_marginLeft">40sp</item>
+       
+   </style>
+   
+    <style name="TextViewStyle6">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">140sp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">25sp</item>
+       <item name="android:layout_marginLeft">10sp</item>
+       
+   </style>
+   
+   <style name="StatTextViewStyle">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">40sp</item>
+       <item name="android:layout_marginLeft">30sp</item>
+     
+       
+   </style>
+   
+   <style name="StatTextViewStyle2">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">20sp</item>
+       <item name="android:layout_marginLeft">30sp</item>
+      
+       
+   </style>
+   
+    <style name="StatTextViewStyle3">
+       <item name="android:textSize">14sp</item>
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">70sp</item>
+       <item name="android:layout_marginLeft">30sp</item>
+       
+       
+   </style>
+   
+
+   
+  <!--  <style name="EditTextStyle">
+       
+       <item name="android:background">@drawable/et</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_width">200sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:padding">05sp</item>
+        <item name="android:weightSum">2</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:height">20sp</item>
+        
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">100sp</item>
+        <item name="android:layout_marginTop">10sp</item>
+        
+        <item name="android:ellipsize">end</item>
+        <item name="android:hint">Text</item>
+        <item name="android:gravity">center_horizontal</item>  
+       #fffcfcfc
+   </style> -->
+    <style name="EdittextNoteStyle" >
+        
+        <item name="android:layout_width">190sp</item>
+        <item name="android:layout_height">60sp</item>
+        <item name="android:background">@drawable/et</item>
+        <item name="android:layout_marginLeft">10sp</item>
+         <item name="android:layout_marginRight">10sp</item>
+        <item name="android:textSize">14sp</item>
+	    <item name="android:textStyle">bold</item>
+	   <item name="android:padding">05sp</item>
+	   <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    
+   
+   <style name="EditTextStyle">
+
+	<item name="android:background">@drawable/et</item>
+	
+	<item name="android:layout_width">500sp</item>
+	<item name="android:layout_marginTop">16sp</item>
+	<item name="android:layout_height">24sp</item>
+	<item name="android:padding">05sp</item>
+	
+	<item name="android:singleLine">true</item>
+	<item name="android:textSize">13sp</item>
+	<item name="android:textStyle">bold</item>
+	<item name="android:inputType">text</item>
+	<item name="android:layout_marginLeft">10sp</item>
+	<!-- <item name="android:width">100sp</item> -->
+	
+	<item name="android:layout_marginRight">10sp</item>
+	<item name="android:ellipsize">end</item>
+	<item name="android:weightSum">2</item>
+	<item name="android:gravity">center_horizontal</item>
+
+ </style>
+ 
+   <style name="EditTextStyle2">
+       <item name="android:padding">03sp</item>
+       <item name="android:layout_width">135sp</item>
+       <item name="android:layout_height">30sp</item>
+       <item name="android:layout_marginLeft">4sp</item>
+       <item name="android:textSize">14sp</item>
+       <item name="android:inputType">textMultiLine</item>
+  
+   </style>
+ 
+   <style name="SpinnerStyle">
+       
+       
+       <item name="android:layout_width">400sp</item>
+       <item name="android:layout_height">40sp</item>
+       <item name="android:layout_marginLeft">10sp</item>
+       <item name="android:layout_marginRight">10sp</item>
+       <item name="android:layout_marginTop">12sp</item>
+       <item name="android:textSize">3sp</item>
+       
+   </style>
+   
+  
+   
+   <style name="SpinnerStyle1">
+       
+       <item name="android:layout_width">400sp</item>
+       <item name="android:layout_height">38sp</item>
+       <item name="android:layout_marginLeft">10sp</item>
+       <item name="android:layout_marginRight">10sp</item>
+       <item name="android:layout_marginTop">50sp</item>
+       
+   </style>
+   
+   <style name="SpinnerStyleSettings">
+       
+       <item name="android:layout_width">400sp</item>
+       <item name="android:layout_height">45sp</item>
+       <item name="android:layout_marginLeft">05sp</item>
+       <item name="android:layout_marginRight">25sp</item>
+       <!-- <item name="android:layout_marginTop">32sp</item> -->
+       
+   </style>
+   
+    <style name="SpinnerStyleSettings1">
+       
+       <item name="android:layout_width">400sp</item>
+       <item name="android:layout_height">38sp</item>
+       <item name="android:layout_marginLeft">05sp</item>
+       <item name="android:layout_marginRight">25sp</item>
+       <item name="android:layout_marginTop">20sp</item>
+       
+   </style>
+   
+    <style name="SpinnerStyleSettings2">
+       
+       <item name="android:layout_width">400sp</item>
+       <item name="android:layout_height">38sp</item>
+       <item name="android:layout_marginLeft">05sp</item>
+       <item name="android:layout_marginRight">25sp</item>
+       <item name="android:layout_marginTop">105sp</item>
+       
+   </style>
+   
+   <style name="SpinnerStyle2">
+       
+       <item name="android:layout_width">400sp</item>
+       <item name="android:layout_height">38sp</item>
+       <item name="android:layout_marginLeft">30sp</item>
+       <item name="android:layout_marginRight">10sp</item>
+       <item name="android:layout_marginTop">125sp</item>
+       
+   </style>
+   
+    <style name="SpinnerStyle3">
+       
+       
+       <item name="android:layout_width">400sp</item>
+       <item name="android:layout_height">38sp</item>
+       <item name="android:layout_marginLeft">30sp</item>
+       <item name="android:layout_marginRight">10sp</item>
+       <item name="android:layout_marginTop">12sp</item>
+       <item name="android:textSize">3sp</item>
+       
+   </style>
+   
+   <style name="ButtonStyle1">
+       
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item> 
+      
+       
+   </style>
+   
+    <style name="ButtonStyle2">
+       
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginLeft">15dp</item>
+       
+   </style>
+   
+    
+   
+     <style name="ButtonStyle3">
+       
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginLeft">90dp</item>
+      
+    </style>  
+    
+     <style name="ButtonStyle4">
+       
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginLeft">110dp</item>
+      
+    </style>  
+   
+</resources>

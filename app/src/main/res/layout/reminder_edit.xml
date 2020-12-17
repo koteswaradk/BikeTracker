@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFEFEFEF">
+	 <TextView 	style="@style/TitleBar"
+	    		android:text="@string/FillUp"
+	    		android:id="@+id/tv"/>	
+
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:layout_gravity="center_vertical"
+	    android:layout_below="@+id/tv"
+	    android:gravity="center" >
+
+	    <TextView
+	        android:id="@+id/text1"
+	        style="@style/TextViewStyle"
+	        android:layout_marginTop="35dp"
+	        android:layout_toLeftOf="@+id/body"
+	        android:text="Reminder Bike" />
+
+	    <EditText
+	        android:id="@+id/title"
+	         style="@style/EdittextNoteStyle"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginTop="20dp"
+	       android:editable="false"
+	          android:textSize="16sp"
+	        android:layout_toRightOf="@+id/text1"
+	        android:background="@drawable/et" />
+
+	  
+         	<TextView style="@style/TextViewStyle"
+         	       
+						android:id="@+id/text3"
+						android:layout_below="@+id/text2"
+						android:layout_marginTop="35dp"
+						android:text="@string/date" />
+	 	<TextView 
+	 	    style="@style/TextViewStyle"
+	 	    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/text4"
+			  android:textSize="16sp"
+			
+			android:layout_marginTop="35dp"
+			android:layout_below="@+id/text3"
+			android:text="@string/time" />
+	   
+
+	    <TextView style="@style/TextViewStyle"
+	        android:id="@+id/text2"
+	       
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/title"
+	        android:layout_marginTop="30dp"
+	        android:text="Reminder About" />
+
+	    <EditText
+	        android:id="@+id/body"
+	        style="@style/EdittextNoteStyle"
+	        android:layout_alignBaseline="@+id/text2"
+	        android:layout_alignBottom="@+id/text2"
+	        android:layout_alignParentRight="true"
+	         android:textSize="16sp"
+	         android:editable="false"
+	        android:background="@drawable/et"
+	        android:scrollbars="vertical" >
+
+	        <requestFocus />
+	    </EditText>
+
+	    <EditText
+	        style="@style/EdittextNoteStyle"
+	        android:id="@+id/reminder_date"
+	        android:focusable="false"
+	          android:textSize="16sp"
+	          android:editable="false"
+	        android:layout_alignBaseline="@+id/text3"
+	        android:layout_alignBottom="@+id/text3"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/et"
+	        />
+
+	    <EditText
+	        android:id="@+id/reminder_time"
+	        android:textSize="16sp"
+	        style="@style/EdittextNoteStyle"
+	        android:layout_alignBaseline="@+id/text4"
+	        android:layout_alignBottom="@+id/text4"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/et"
+	        android:editable="false"
+	        android:focusable="false"
+	       
+	        android:ems="10" />
+
+	    <ImageButton 
+	        android:id="@+id/confirm"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/reminder_time"
+	        android:layout_below="@+id/reminder_time"
+	        android:layout_marginTop="50dp"
+	        android:background="@drawable/ok"
+	        android:gravity="center"
+	        android:text="@string/confirm" />
+
+	</RelativeLayout>
+
+</LinearLayout>

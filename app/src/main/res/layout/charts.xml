@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView style="@style/TitleBar"
+        	  android:text="@string/Chart"
+        	  android:id="@+id/tv"/>
+
+     <ScrollView 
+   				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:background="#FFEFEFEF">
+    
+      <RelativeLayout 
+    					android:layout_width="fill_parent"
+    					android:layout_height="fill_parent"
+   					 	android:id="@+id/relative1" >
+   					 	
+   					 	
+          <!-- <ImageView android:layout_width="fill_parent"
+    				 android:layout_height="wrap_content"
+           		  android:src="@drawable/select_chart"
+           		  android:layout_alignParentTop="true"/> -->
+   					 	
+    		 <RadioGroup 	android:layout_height="wrap_content"
+    	    				android:layout_width="fill_parent"
+    	    				android:orientation="horizontal"
+    	    				
+    	    				android:layout_marginTop="30dp"
+    	    				android:gravity="center"
+    	    				
+    	    				android:id="@+id/chart_rg">
+    	    				
+            <RadioButton 	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/MileageChart"
+    	        			android:id="@+id/mileage_chart_rb"
+    	        			android:textSize="12sp"
+    	        			android:textColor="@android:color/black"
+    	        			android:checked="true"/>
+    	        
+    	    
+    	    <RadioButton	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/FuelChart"
+    	        		 	android:id="@+id/fuel_chart_rb"
+    	        		 	android:textColor="@android:color/black"
+    	        		 	android:textSize="12sp"/>
+    	    
+    	     <RadioButton 	android:layout_width="fill_parent"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/ExpenseChart"
+    	        			android:id="@+id/expense_chart_rb"
+    	        			android:textColor="@android:color/black"
+    	        			android:textSize="12sp"/>
+    	     
+    	              
+  			 </RadioGroup>
+  			 
+    		 
+    		 <ImageView android:layout_height="fill_parent"
+           		  android:layout_width="fill_parent"
+           		  android:src="@drawable/select_report"
+           		  android:layout_below="@id/chart_rg"
+           		  android:textColor="@android:color/black"
+           		  android:visibility="gone"/>
+    		 
+    		  <!-- <RadioGroup 	android:layout_height="wrap_content"
+    	    				android:layout_width="fill_parent"
+    	    				android:orientation="horizontal"
+    	    				android:layout_below="@id/chart_rg"
+    	    				android:layout_marginTop="30dp"
+    	    				android:gravity="center"
+    	    				android:visibility="gone"
+    	    				android:id="@+id/report_rg">
+    	    				
+            <RadioButton 	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/Weekly"
+    	        			android:id="@+id/weekly_chart_rb"
+    	        			android:textSize="12sp"/>
+    	        
+    	    
+    	    <RadioButton	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/Monthly"
+    	        		 	android:id="@+id/monthly_chart_rb"
+    	        		 	android:textSize="12sp"/>
+    	    
+    	     <RadioButton 	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/Yearly"
+    	        			android:id="@+id/yearly_chart_rb"
+    	        			android:textSize="12sp"/>
+    	     
+    	              
+  			 </RadioGroup> -->
+  			 
+    		  
+    		  <!-- <ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_below="@id/report_rg"
+                    		 android:layout_marginLeft="110dp"
+                    		 android:layout_marginTop="30dp"
+                    		 android:background="@drawable/show"
+                    		 android:id="@+id/show_chart_button"/> -->
+    
+    
+    </RelativeLayout>
+    
+      </ScrollView>
+      
+</LinearLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>       
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+       
+    <TextView
+       style="@style/TitleBar"
+       android:text="@string/AddBike"
+       android:id="@+id/tv" />
+    
+     
+     <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> 
+
+           
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    android:background="#FFEFEFEF"
+    android:id="@+id/relative1" >
+   
+    
+    <TextView style="@style/TextViewStyle"
+        	  android:text="@string/Name"
+        	  
+        	  android:id="@+id/name"/>
+    
+    <EditText style="@style/EditTextStyle"
+        	  android:hint="@string/EnterName"
+        	  android:layout_toRightOf="@id/name"
+        	  android:id="@+id/name_et"
+        	  android:inputType="text"
+        	  /> 
+    
+     <TextView
+         	  style="@style/TextViewStyle"
+        	  android:text="@string/Registration"
+        	  android:layout_below="@id/name"
+        	  android:id="@+id/registration"/>
+     
+     <EditText style="@style/EditTextStyle"
+         	  android:hint="@string/EnterReg"
+        	  android:layout_toRightOf="@id/registration"
+        	  android:layout_below="@id/name_et"
+        	  android:id="@+id/registration_et"
+        	  android:inputType="text"
+        	  />
+     
+     <TextView style="@style/TextViewStyle"
+         	   android:text="@string/Manufacturer"
+         	   android:layout_below="@id/registration"
+         	   android:id="@+id/manufacturer"/>
+     
+   
+     
+      <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/manufacturer"
+        	  android:hint="@string/EnterManu"
+        	  android:layout_below="@id/registration_et"
+        	  android:id="@+id/manufacturer_et"
+        	  />
+     
+      <TextView style="@style/TextViewStyle"
+         	   android:text="@string/Vehicle_Type"
+         	   android:layout_below="@id/manufacturer"
+         	   android:id="@+id/VehicleType"/>
+      
+      <Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/VehicleType"
+    	    	 android:layout_below="@id/manufacturer_et"
+    	    	 android:id="@+id/vehicletype_spinner"
+    	    	 android:prompt="@string/vehicle_type_prompt"
+    	    	 android:entries="@array/vehicle_arrays"/>
+     
+      
+       <TextView style="@style/TextViewStyle1"
+         	   android:text="@string/Bike_Color"
+         	   android:layout_below="@id/VehicleType"
+         	   android:id="@+id/BikeColor"/>
+       
+        <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/BikeColor"
+        	  android:hint="@string/EnterCol"
+        	  android:layout_below="@id/vehicletype_spinner"
+        	  android:id="@+id/BikeColor_et"
+        	  />
+       
+        <TextView style="@style/TextViewStyle"
+         	   android:text="@string/Bike_Model"
+         	   android:layout_below="@id/BikeColor"
+         	   android:id="@+id/BikeModel"/>
+        
+         <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/BikeModel"
+        	  android:hint="@string/EnterModel"
+        	  android:layout_below="@id/BikeColor_et"
+        	  android:id="@+id/BikeModel_et"
+        	  android:inputType="number"
+        	  />
+        
+         <TextView style="@style/TextViewStyle"
+         	   android:text="@string/YearOfManufacture"
+         	   android:layout_below="@id/BikeModel"
+         	   android:id="@+id/YearOfManufacture"/>
+         
+          <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/YearOfManufacture"
+        	  android:hint="@string/EnterYOM"
+        	  android:layout_below="@id/BikeModel_et"
+        	  android:id="@+id/YearOfManufacture_et"
+        	  android:inputType="number"
+        	  />
+         
+          <TextView style="@style/TextViewStyle"
+         	   android:text="@string/RegistrationDate"
+         	   android:layout_below="@id/YearOfManufacture"
+         	   android:id="@+id/RegistrationDate"/>
+          
+          <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/RegistrationDate"
+        	  android:hint="@string/EnterRegDate"
+        	  android:layout_below="@id/YearOfManufacture_et"
+        	  android:id="@+id/RegistrationDate_et"
+        	  />
+          
+           <TextView style="@style/TextViewStyle"
+         	   android:text="@string/ChassisNumber"
+         	   android:layout_below="@id/RegistrationDate"
+         	   android:id="@+id/ChassisNumber"/>
+           
+            <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/ChassisNumber"
+        	  android:hint="@string/Chassisnumber"
+        	  android:layout_below="@id/RegistrationDate_et"
+        	  android:id="@+id/ChassisNumber_et"
+        	  
+        	  />
+           
+            <TextView style="@style/TextViewStyle"
+         	   android:text="@string/EngineNumber"
+         	   android:layout_below="@id/ChassisNumber"
+         	   android:id="@+id/EngineNumber"/>
+            
+            <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/EngineNumber"
+        	  android:hint="@string/enginenumber"
+        	  android:layout_below="@id/ChassisNumber_et"
+        	  android:id="@+id/EngineNumber_et"
+        	  />
+            
+             <TextView style="@style/TextViewStyle"
+         	   android:text="@string/FuelType"
+         	   android:layout_below="@id/EngineNumber"
+         	   android:id="@+id/FuelType"/>
+             
+             <Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/FuelType"
+    	    	 android:layout_below="@id/EngineNumber_et"
+    	    	 android:id="@+id/fueltype_spinner"
+    	    	 android:prompt="@string/fuel_category_prompt"
+    	    	 android:entries="@array/fuel_cat_array"/>
+             
+          
+             
+              <TextView style="@style/TextViewStyle1"
+         	   android:text="@string/CC"
+         	   android:layout_below="@id/FuelType"
+         	   android:id="@+id/CC"/>
+              
+              
+              
+               <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/CC"
+        	  android:layout_below="@id/fueltype_spinner"
+        	  android:hint="@string/_cc"
+        	  android:id="@+id/CC_et"
+        	  android:inputType="number"
+        	  />
+              
+              <!--  <TextView style="@style/TextViewStyle"
+         	   android:text="@string/RegistrationUpto"
+         	   android:layout_below="@id/CC"
+         	   android:id="@+id/RegistrationUpto"/>
+               
+                 <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/RegistrationUpto"
+        	  android:layout_below="@id/CC_et"
+        	  android:id="@+id/RegistrationUpto_et"
+        	  /> -->
+        	
+                <TextView style="@style/TextViewStyle"
+         	   android:text="@string/FCupto"
+         	   android:layout_below="@id/CC"
+         	   android:id="@+id/FCupto"/>
+              
+               <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/FCupto"
+        	  android:layout_below="@id/CC_et"
+        	  android:hint="@string/_fcupto"
+        	  android:id="@+id/FCupto_et"
+        	  android:inputType="number"
+        	  />
+             
+                
+      
+                
+                
+                
+                <ImageButton android:layout_marginLeft="20dp"
+                    		 style="@style/ButtonStyle1"
+                    		 android:layout_gravity="center"
+                    		android:layout_alignParentBottom="true"
+                    		android:layout_alignParentLeft="true"
+                    		 android:background="@drawable/ok"
+                    		 android:layout_below="@id/FCupto"
+                    		 android:layout_marginTop="20dp"
+                    		 android:id="@+id/ok_button"/>
+                
+              <!--   <ImageButton android:layout_marginLeft="20dp"
+                    		 style="@style/ButtonStyle1"
+                    		 android:layout_gravity="center"
+                    		 android:layout_toRightOf="@id/cancel_button"
+                    		 android:layout_alignParentBottom="true"
+                    		  android:layout_marginTop="20dp"
+                    		
+                    		 android:background="@drawable/show"
+                    		 android:id="@+id/clear_button"/> -->
+
+                <ImageButton
+                    android:id="@+id/cancel_button"
+                    style="@style/ButtonStyle1"
+                    android:layout_alignLeft="@+id/FCupto_et"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="21dp"
+                    android:background="@drawable/cancel" />
+              
+                </RelativeLayout>  
+                
+            
+ </ScrollView>
+  
+      
+    
+</LinearLayout>
+

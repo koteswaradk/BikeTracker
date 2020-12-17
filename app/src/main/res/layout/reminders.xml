@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView 	style="@style/TitleBar"
+        		android:text="@string/Reminders"/>
+
+   
+    			
+        <RelativeLayout 
+    					android:layout_width="fill_parent"
+    					android:layout_height="fill_parent"
+   					 	android:id="@+id/reminder1" 
+   					 	android:background="#FFEFEFEF">
+   					 	
+            <ListView android:id="@+id/android:list"
+                      android:layout_width="fill_parent"
+        	          android:layout_height="fill_parent"/>
+            
+      	<TextView android:id="@+id/android:empty"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+        	      android:text="@string/no_reminders"/>
+      	 <ImageButton 
+                			
+                    		 style="@style/ButtonStyle3"
+                    		 android:layout_alignParentBottom="true"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:background="@drawable/addreminder"
+                    		 android:id="@+id/addreminder_button"
+                    		 />
+            
+    	</RelativeLayout>
+    	
+    	
+   					<RelativeLayout 
+    					android:layout_width="fill_parent"
+    					android:layout_height="fill_parent"
+   					 	android:id="@+id/relative1" 
+   					 	android:background="#FFEFEFEF"> 	
+           
+            
+            
+    	</RelativeLayout>
+
+
+        
+</LinearLayout>

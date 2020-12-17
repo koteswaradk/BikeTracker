@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+         >
+          <TextView
+				       style="@style/TitleBar"
+				       android:text="About Bike Tracker"
+				       android:id="@+id/tv" />
+
+<ScrollView 
+       
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:layout_gravity="center_vertical"
+	    android:gravity="center"
+	    android:layout_below="@+id/tv"
+   >
+
+      <TextView
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:textColor="#FF0D72A6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           
+            android:text="@string/aboutapp" />
+  
+      </ScrollView>t
+  
+  
+  </RelativeLayout>
+    
+

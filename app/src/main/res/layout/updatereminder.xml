@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    
+    <TextView 	style="@style/TitleBar"
+        		android:text="@string/AddReminder"
+        		android:id="@+id/tv"/>
+   
+
+  
+
+   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:background="#FFEFEFEF">
+   		   
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+   					 	android:id="@+id/relative1"
+   					 	android:layout_gravity="center_vertical"
+   					 	android:gravity="center" 
+   					 	android:background="#FFEFEFEF">
+   					 	
+    					
+   					 	 <TextView
+	            android:id="@+id/remminderVehicle"
+	            style="@style/TextViewStyle"
+	            android:text="@string/Vehicle" />
+
+	        <EditText style="@style/EditTextStyle"
+	            android:id="@+id/update_remindere_bikename_et"
+	            
+	            android:layout_toRightOf="@id/remminderVehicle"
+	            android:prompt="@string/vehicle_type_prompt"
+	          
+	             />
+   			<!--  android:layout_below="@id/OdoReading"  android:layout_below="@id/odo_read_et" -->
+   			<TextView
+	            android:id="@+id/Expenses"
+	            style="@style/TextViewStyle"
+	            android:layout_below="@+id/update_remindere_bikename_et"
+	            android:text="Remind About"
+	             />
+   			  <Spinner
+				        android:id="@+id/Reminder_spinner"
+				        style="@style/SpinnerStyle"
+				       android:layout_below="@+id/update_remindere_bikename_et"
+				        android:layout_toRightOf="@+id/Expenses"
+				        android:entries="@array/expense_type_array"
+				        android:prompt="@string/expense_prompt" />
+   		
+             <TextView style="@style/TextViewStyle"
+        	  android:text="@string/RemindMeAbout"
+        	  android:layout_below="@id/Reminder_spinner"
+        	  android:id="@+id/RemindMeAbout"
+        	  android:visibility="invisible"/>
+    
+    		<EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/RemindMeAbout"
+        	  android:hint="@string/aboutremainderhint"
+        	  android:layout_below="@+id/Reminder_spinner"
+        	  android:id="@+id/remind_abt_et"
+        	  android:visibility="invisible"
+        	  /> 
+        	  
+    		<TextView
+         	  style="@style/TextViewStyle"
+        	  android:text="seT Date"
+        	  android:layout_below="@id/Reminder_spinner"
+        	  
+        	  android:id="@+id/DateTime"/>
+     
+    		 <EditText style="@style/EditTextStyle"
+        			  android:layout_toRightOf="@id/DateTime"
+        			  android:layout_below="@id/Reminder_spinner"
+        			  android:hint="Select Date Here"
+        			  android:id="@+id/remind_datetime_et"
+        	  />
+    		
+    		 <TextView
+         	  style="@style/TextViewStyle"
+        	  android:text="Set Time"
+        	  android:layout_below="@id/DateTime"
+        	  android:id="@+id/OdoReading"/>
+     
+    		 <EditText style="@style/EditTextStyle"
+        			  android:layout_toRightOf="@id/OdoReading"
+        			  android:layout_below="@id/remind_datetime_et"
+        			  android:hint="Select Time Here"
+        			  android:id="@+id/remind_odo_et"
+        	  />
+    		 
+    		 
+    	<TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/Notes"
+    	    	  android:layout_below="@id/OdoReading"
+    	    	  android:id="@+id/ReminderNotes"/>
+    	
+    	<EditText style="@style/EditTextStyle"
+    	    		android:layout_width="150sp"
+                  android:layout_height="55sp"
+                  android:layout_marginLeft="10sp"
+                  android:layout_marginTop="12sp"
+                  android:hint="@string/customnote"
+        	      android:layout_toRightOf="@id/ReminderNotes"
+        	      android:layout_below="@id/remind_odo_et"
+        	      android:id="@+id/reminder_notes_et"
+        	     
+        	  />
+    	
+    	<ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_below="@id/ReminderNotes"
+                    		 android:layout_marginTop="100dp"
+                    		 android:background="@drawable/submit"
+                    		 android:id="@+id/submit_rem_button"/>
+	    
+    	<ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_toRightOf="@id/submit_rem_button"
+                    		 android:layout_below="@id/ReminderNotes"
+                    		 android:layout_marginTop="100dp"
+                    		 android:background="@drawable/cancel"
+                    		 android:id="@+id/cancel_rem_button"/>
+    		 
+    	
+ </RelativeLayout>
+	</ScrollView>
+        
+</LinearLayout>

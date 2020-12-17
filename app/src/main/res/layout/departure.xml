@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  >
+    
+    <TextView 	style="@style/TitleBar"
+        		android:text="@string/departure_details"
+        		android:id="@+id/tv"/>
+    
+    <ScrollView 
+   				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:background="#FFEFEFEF">
+    			
+        <RelativeLayout 
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+   					 	android:id="@+id/relative1" >
+   					 	
+             <TextView 	style="@style/TextViewStyle"
+        	  			android:text="@string/Type"
+        	  			android:layout_marginTop="25dp"
+        	  			android:layout_below="@id/tv"
+        	  			android:id="@+id/Type"/>
+             
+             <RadioGroup 	android:layout_height="wrap_content"
+    	    				android:layout_width="fill_parent"
+    	    				android:orientation="horizontal"
+    	    				android:layout_below="@id/tv"
+    	    				android:gravity="center"
+    	    				android:layout_marginTop="12dp"
+    	    				android:layout_marginLeft="25dp"
+    	    				android:id="@+id/type_rg">
+    	    
+    	    <RadioButton	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/Business"
+    	        		 	android:id="@+id/business_rb"
+    	        		 	android:textSize="14sp"
+    	        		 	/>
+    	    
+    	     <RadioButton 	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/Personal"
+    	        			android:id="@+id/personal_rb"
+    	        			android:textSize="14sp"
+    	        			android:checked="true"/>
+    	    
+    	</RadioGroup>	
+    	
+             <TextView style="@style/TextViewStyle1"
+    	    	  android:text="@string/Purpose"
+    	    	  android:layout_below="@id/Type"
+    	    	  android:layout_marginTop="30dp"
+    	    	  android:id="@+id/Purpose"/>
+             
+             <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/Purpose"
+        	  android:hint="@string/departurepurpose"
+        	  android:layout_below="@id/type_rg"
+        	  android:id="@+id/purpose_et"
+        	  />
+             
+             <TextView style="@style/TextViewStyle"
+                 	   android:text="@string/Client"
+                 	   android:layout_below="@id/Purpose"
+                 	   android:layout_marginTop="20dp"
+                 	   android:id="@+id/Client"/>
+             
+             <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/Client"
+        	  android:hint="@string/departureclient"
+        	  android:layout_below="@id/purpose_et"
+        	  android:id="@+id/client_et"
+        	  />
+            
+             <TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/Vehicle"
+    	    	  android:layout_below="@id/Client"
+    	    	  android:layout_marginTop="30dp"
+    	    	  android:id="@+id/Vehicle"/>
+    	
+    		<Spinner style="@style/SpinnerStyle"
+    	    		 android:layout_toRightOf="@id/Vehicle"
+    	    		 android:layout_below="@id/client_et"
+    	   	   		 android:id="@+id/dep_vehicle_spinner"
+    	   	   		 android:prompt="@string/vehicle_type_prompt"
+    	   	   		 android:entries="@array/vehicle_arrays"/>
+    		
+    		 <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="140sp"
+                 android:layout_marginTop="80dp"
+                 android:layout_marginLeft="10dp"
+         	     android:text="@string/DateTime"
+         	     android:layout_below="@id/Client"
+         	     android:id="@+id/dep_datetime"/>
+             
+             <EditText  style="@style/EditTextStyle"
+                        android:layout_width="150sp"
+                 		android:layout_height="30sp"
+                 		android:layout_marginLeft="10sp"
+                 		android:background="@drawable/et"
+                 		android:textSize="12sp"
+                 		android:layout_toRightOf="@id/dep_datetime"
+                 		android:hint="@string/datetimenote"
+                 		android:layout_below="@id/dep_vehicle_spinner"
+                 		android:layout_marginTop="15dp"
+                 		android:id="@+id/dep_dt_et"/>
+             
+             <TextView
+                style="@style/TextViewStyleTrip1"
+         	     android:text="@string/OdoReading"
+         	     android:layout_below="@id/dep_datetime"                     
+         	     android:layout_marginLeft="10dp"
+         	     android:layout_marginTop="20dp"
+         	     android:id="@+id/DepOdo"/>
+              
+               <EditText 
+                        style="@style/EditTextStyle"
+                        
+                         android:layout_width="150sp"
+                        android:layout_marginLeft="10sp"
+                 		android:layout_toRightOf="@id/DepOdo"
+                 		android:layout_below="@id/dep_dt_et"
+                 		android:hint="@string/odometerreading"
+                 		android:layout_marginTop="12dp"
+                 		android:background="@drawable/et"
+                 		android:id="@+id/dep_odo_et"
+                 		android:inputType="number"/>
+               
+                <TextView
+                style="@style/TextViewStyle2"
+         	     android:text="@string/Location"
+         	     android:layout_below="@id/DepOdo"
+         	    android:layout_marginLeft="10dp"
+         	    android:layout_marginTop="20dp"
+         	     android:id="@+id/DepLocation"/>
+              
+               <EditText style="@style/EditTextStyle"
+                        android:layout_width="150sp"
+                        android:layout_marginLeft="10sp"
+                 		android:layout_toRightOf="@id/DepLocation"
+                 		android:hint="@string/location"
+                 		android:layout_below="@id/dep_odo_et"
+                 		android:layout_marginTop="12dp"
+                 		android:background="@drawable/et"                		
+                 		android:id="@+id/dep_loc_et"/>
+               
+               <TextView
+                   
+                 style="@style/TextViewStyle2"
+         	     android:text="@string/Notes"
+         	    android:layout_marginLeft="10dp"
+         	    android:layout_marginTop="40dp"
+         	     android:layout_below="@id/DepLocation"
+         	     android:id="@+id/DepNotes"/>
+              
+               
+                <EditText android:layout_width="150sp"
+                        android:layout_marginLeft="10sp"
+                    	style="@style/EdittextNoteStyle"
+                 		android:layout_toRightOf="@id/DepNotes"
+                 		android:layout_below="@id/dep_loc_et"
+                 		android:layout_marginTop="12dp"
+                 		android:hint="@string/customnote"
+                 		android:background="@drawable/et"
+                 		android:id="@+id/dep_notes_et"/>
+                  <ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_below="@id/DepNotes"
+                    		 android:layout_marginTop="50dp"
+                    		 android:background="@drawable/submit"
+                    		 android:id="@+id/dep_submit_button"/>
+    	     	<!-- <ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_toRightOf="@id/dep_cancel_button"
+                    		 android:layout_below="@id/DepNotes"
+                    		 android:layout_marginTop="50dp"
+                    		 android:background="@drawable/cancel"
+                    		 android:id="@+id/dep_clear_button"/> -->
+
+    	     	<ImageButton
+    	     	    android:id="@+id/dep_cancel_button"
+    	     	    style="@style/ButtonStyle2"
+    	     	    android:layout_alignLeft="@+id/dep_notes_et"
+    	     	    android:layout_alignParentBottom="true"
+    	     	    android:background="@drawable/cancel" />
+
+    </RelativeLayout>
+</ScrollView>
+
+</LinearLayout>

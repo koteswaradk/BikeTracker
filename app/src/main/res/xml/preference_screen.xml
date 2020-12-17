@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:key="autoanswer"
+        				android:title="Auto Answer a Call" 
+      				    android:summary="Check it on, check it off"/>
+    <CheckBoxPreference android:key="autoreplaywithsms"
+        				android:title="Auto Replay With Sms" 
+      				    android:summary="Check it on, check it off"/>
+</PreferenceScreen>

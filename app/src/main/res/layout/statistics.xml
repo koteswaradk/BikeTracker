@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView 	style="@style/TitleBar"
+        		android:text="@string/Statistics"
+        		android:id="@+id/tv"/>
+    
+     <ScrollView 
+   				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:background="#FFEFEFEF">
+    			
+        <RelativeLayout 
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+   					 	android:id="@+id/relative1"
+   					 	android:layout_gravity="center_vertical"
+   					 	android:gravity="center" >
+   					<TextView style="@style/TextViewStyle"
+				         	   android:text="@string/selectbike"
+				         	   android:layout_below="@id/tv"
+				         	   android:layout_marginTop="20dp"
+				         	   android:id="@+id/VehicleType"/>
+      
+     
+      
+      <Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/VehicleType"
+    	    	 android:layout_below="@id/total_cost_et"
+    	    	 android:id="@+id/vehicle_spinner"
+    	    	 android:prompt="@string/vehicle_type_prompt"/>
+   					 	
+             <RadioGroup 	android:layout_height="wrap_content"
+    	    				android:layout_width="fill_parent"
+    	    				android:orientation="horizontal"
+    	    				android:layout_below="@id/VehicleType"
+    	    				android:layout_marginTop="12dp"
+    	    				android:layout_marginLeft="15dp"
+    	    				android:gravity="center"
+    	    				android:visibility="invisible"
+    	    				
+    	    				android:id="@+id/stat_rg">
+    	    				
+            <RadioButton 	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/Weekly"
+    	        			android:id="@+id/weekly_rb_stat"
+    	        			android:textSize="14sp"
+    	        			android:checked="true"
+    	        			android:visibility="gone"/>
+    	        
+    	    
+    	    <RadioButton	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/Monthly"
+    	        		 	android:id="@+id/monthly_rb_stat"
+    	        		 	android:textSize="14sp"
+    	        		 	android:visibility="gone"/>
+    	    
+    	     <RadioButton 	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/tillnow"
+    	        			android:id="@+id/tillnow_rb_stat"
+    	        			android:textSize="14sp"
+    	        			android:visibility="gone"/>
+    	     
+    	              
+  			 </RadioGroup>
+  			 
+              <ImageView
+                  android:layout_width="fill_parent"
+                  android:layout_height="match_parent"
+                  android:layout_below="@id/stat_rg"
+                  android:layout_marginTop="1dp"
+                  android:background="@drawable/fuel_economy" />
+            
+              <TextView style="@style/StatTextViewStyle"
+        	  android:text="@string/BestFuelEco"
+        	  android:layout_below="@id/stat_rg"
+        	  android:id="@+id/BestFuelEco"/>
+              
+              <TextView style="@style/StatTextViewStyle2"
+        	  android:layout_toRightOf="@+id/BestFuelEco"
+        	  android:layout_above="@+id/AverageFuelEco"
+        	  android:singleLine="true"
+        	   android:text="best fuel economy"
+        	  android:id="@+id/bsetfuel_economy_set"/>
+              
+              
+              <TextView style="@style/StatTextViewStyle2"
+        	  android:text="@string/AverageFuelEco"
+        	  android:layout_below="@id/BestFuelEco"
+        	  android:singleLine="true"
+        	  android:id="@+id/AverageFuelEco"/>
+              
+               <TextView style="@style/StatTextViewStyle2"
+        	  android:layout_toRightOf="@+id/AverageFuelEco"
+        	  android:layout_below="@id/BestFuelEco"
+        	  android:singleLine="true"
+        	   android:text="best fuel Milage"
+        	  android:id="@+id/bsetfuel_milage_set"/>
+              
+              <TextView style="@style/StatTextViewStyle2"
+        	  android:text="@string/WorstFuelEco"
+        	  android:layout_below="@id/AverageFuelEco"
+        	  android:id="@+id/WorstFuelEco"/>
+              
+              <TextView style="@style/StatTextViewStyle2"
+        	  android:text="efficiency_set"
+        	  android:layout_toRightOf="@+id/WorstFuelEco"
+        	  android:layout_below="@id/AverageFuelEco"
+        	  android:id="@+id/efficiency_set"/>
+              
+              <ImageView android:layout_height="fill_parent"
+           		  android:layout_width="fill_parent"
+           		  android:layout_below="@id/WorstFuelEco"
+           		  android:src="@drawable/accumulated"
+           		  android:layout_marginTop="40dp"/>
+            
+               <TextView style="@style/StatTextViewStyle3"
+        	  android:text="@string/DistanceTPD"
+        	  android:layout_below="@id/WorstFuelEco"
+        	  android:id="@+id/DistanceTPD"/>
+              
+              <TextView style="@style/StatTextViewStyle2"
+        	  android:text="@string/DistanceTPF"
+        	  android:layout_below="@id/DistanceTPD"
+        	  android:singleLine="true"
+        	  android:id="@+id/DistanceTPF"/>
+              
+              <TextView style="@style/StatTextViewStyle2"
+        	  android:text="@string/Costperday"
+        	  android:layout_below="@id/DistanceTPF"
+        	  android:id="@+id/Costperday"/>
+              
+              <TextView style="@style/StatTextViewStyle2"
+        	  android:text="@string/Costperfillup"
+        	  android:layout_below="@id/Costperday"
+        	  android:id="@+id/Costperfillup"/>
+              
+              <TextView 
+              style="@style/StatTextViewStyle2"
+        	  android:text="@string/TotalExpense"
+        	  android:layout_below="@id/Costperfillup"
+        	  android:id="@+id/TotalExpense"
+        	  android:visibility="invisible"/>
+              
+   		</RelativeLayout>
+   	
+     </ScrollView>   	
+
+</LinearLayout>

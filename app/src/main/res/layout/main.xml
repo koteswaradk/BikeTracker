@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFEFEFEF" >
+
+    <!--
+          <com.google.android.maps.MapView
+                    xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/mapView"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:enabled="true"
+					android:clickable="true"
+					android:apiKey="0r4hlhedw-4e1Oq2yX68aFliC6xLGzYJAJN1TZw" />
+    -->
+    <!--
+        <Button android:id="@+id/btn_launch_oauth"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Launch OAuth Flow"/>
+
+	    <Button android:id="@+id/btn_clear_credentials"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Clear Credentials"/>	 
+	            
+            <TextView android:id="@+id/response_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+			    android:textColor="#FFFFFF"
+			    android:typeface="normal"/>
+    -->
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="I Am Busy call you Later" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Am Driving CAll Me Later" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Am Driving CAll You Later" />
+        
+    </RadioGroup>
+    <ImageButton android:id="@+id/ok_button_ok" style="@style/ButtonStyle1" android:layout_marginLeft="40dp" android:background="@drawable/ok"/>
+           
+              <!--   <ImageButton
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/cancel_button"
+                     android:layout_marginTop="40dp"
+                    style="@style/ButtonStyle1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/radioGroup1"
+                    android:background="@drawable/cancel" /> -->
+
+</LinearLayout>

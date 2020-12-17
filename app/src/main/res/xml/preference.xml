@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+    <CheckBoxPreference
+        android:key="enabled"
+        android:title="@string/enabled" />
+
+    <ListPreference
+        android:defaultValue="all"
+        android:entries="@array/which_contacts"
+        android:entryValues="@array/which_contacts_values"
+        android:key="which_contacts"
+        android:title="@string/which_contacts"
+
+         />
+    <!--  android:title="@string/which_contacts" -->
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/delay"
+        android:entryValues="@array/delay_values"
+        android:key="delay"
+        android:title="@string/delay"
+        />
+<!--  android:title="@string/delay" -->
+    <CheckBoxPreference
+        android:key="use_speakerphone"
+        android:title="@string/use_speakerphone" />
+    <CheckBoxPreference
+        android:key="headset_only"
+        android:title="@string/headset_only" />
+    <CheckBoxPreference
+        android:key="no_second_call"
+        android:title="@string/no_second_call" />
+    <!--  <CheckBoxPreference
+        android:key="replay_with_sms"
+        android:title="@string/smsautoresend" /> -->
+    <!--
+               <com.everysoft.autoanswer.preference.AutoAnswerDialogPreference
+                           android:key="about" 
+                           android:title="@string/about_title" 
+                           android:src="@drawable/ic_launcher"
+                           android:dialogTitle="@string/about_title"
+                           android:dialogMessage="@string/about_message"
+                           android:dialogIcon="@drawable/ic_launcher"
+                           android:negativeButtonText="@null" />
+             <com.everysoft.autoanswer.preference.AutoAnswerDialogPreference
+                                  android:key="license" 
+                                  android:title="@string/license_title" 
+                                  android:src="@drawable/ic_launcher"
+                                   android:dialogTitle="@string/license_title"
+                                   android:dialogMessage="@string/license_message"
+                                   android:dialogIcon="@drawable/ic_launcher"
+                                    android:negativeButtonText="@null" />
+    -->
+
+</PreferenceScreen>

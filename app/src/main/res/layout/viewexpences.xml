@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFEFEFEF">
+
+       
+    <TextView
+        android:id="@+id/text_bikedetails"
+       style="@style/TitleBar"
+       android:text="Your Expences Details"
+        />
+    
+    
+     
+     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> 
+
+
+<!-- <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFEFEFEF" >
+
+
+ -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFEFEFEF" >
+
+    <TextView
+        android:id="@+id/expencesbikename"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/tv"
+        android:text="Your Bike Name" />
+
+    <TextView
+        android:id="@+id/expencesbikename_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/expencesbikename"
+         />
+
+    <TextView
+        android:id="@+id/expencefor"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/expencesbikename"
+        android:text=" Expence For" />
+
+    <TextView
+        android:id="@+id/expencetotalcost"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/expencefor"
+        android:text="Odometer Reading" />
+
+    <TextView
+        android:id="@+id/VehicleType"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/expencetotalcost"
+        android:text="Totalcost" />
+
+    <TextView
+        android:id="@+id/expencelocation"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/VehicleType"
+        android:text="location" />
+
+    <TextView
+        android:id="@+id/expencepaymenttype"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/expencelocation"
+        android:text="Paymenttype" />
+
+    <TextView
+        android:id="@+id/expencenote"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/expencepaymenttype"
+        android:text="Date and Time" />
+
+    <ImageButton
+        android:id="@+id/ok_button"
+        style="@style/ButtonStyle1"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_below="@+id/note"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ok" />
+
+    <TextView
+        android:id="@+id/expenceodo_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/VehicleType"
+        android:layout_toRightOf="@+id/expencetotalcost"
+        />
+
+    <TextView
+        android:id="@+id/expencelocation_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/expencelocation"
+        android:layout_alignBottom="@+id/expencelocation"
+        android:layout_toRightOf="@+id/expencelocation"
+        />
+
+    <TextView
+        android:id="@+id/expencetotalcpst_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/VehicleType"
+        android:layout_alignBottom="@+id/VehicleType"
+        android:layout_alignLeft="@+id/expenceodo_set"
+        />
+
+    <TextView
+        android:id="@+id/expencefor_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/expencetotalcost"
+        android:layout_alignLeft="@+id/expenceodo_set"
+         />
+
+    <TextView
+        android:id="@+id/expencepaymenttype_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/expencenote"
+        android:layout_toRightOf="@+id/expencepaymenttype"
+       />
+    <TextView
+        android:id="@+id/expencesbikenote_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/expencepaymenttype"
+        android:layout_toRightOf="@id/expencenote"
+        />
+    
+    <TextView 
+               android:id="@+id/note" 
+               android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/expencenote"
+        		android:layout_marginLeft="15dp"
+        		android:layout_marginTop="30dp"
+        		android:text="note"/>
+
+     <TextView
+         android:id="@+id/note_set"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/note"
+         android:layout_alignBottom="@+id/note"
+         android:layout_alignLeft="@+id/expencesbikenote_set"
+         />
+
+</RelativeLayout>
+
+ <!-- <include android:layout_below="@+id/relative2"
+     android:layout_alignParentBottom="true"
+     android:layout_alignBottom="@+id/fueltype_set"
+        layout="@layout/purchasedisplay"/>
+                
+     
+ </RelativeLayout> -->
+ </ScrollView>
+  
+      
+    
+</LinearLayout>

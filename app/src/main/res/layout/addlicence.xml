@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>       
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFEFEFEF">
+
+       
+    <TextView
+       style="@style/TitleBar"
+       android:text="@string/AddBike"
+       android:id="@+id/tv" />
+    
+     
+     <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> 
+
+           
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    android:background="#FFEFEFEF"
+    android:id="@+id/relative1" >
+   
+   <TextView style="@style/TextViewStyle"
+        	  android:text="Enter Your Name"
+        	  
+        	  android:id="@+id/name"/>
+    
+    <EditText style="@style/EditTextStyle"
+        	  android:hint="@string/EnterName"
+        	  android:layout_toRightOf="@id/name"
+        	  android:id="@+id/owner_name_et"
+        	  />
+    
+    <TextView
+         	  style="@style/TextViewStyle"
+        	  android:text="Father S/W/D Name"
+        	  android:layout_below="@id/name"
+        	  android:id="@+id/registration"/>
+     
+     <EditText style="@style/EditTextStyle"
+         	  android:hint="Father S/W/D Name"
+        	  android:layout_toRightOf="@id/registration"
+        	  android:layout_below="@id/owner_name_et"
+        	  android:id="@+id/Father_Name_s_w_d_et"
+        	  android:inputType="text"
+        	  />
+     
+     <TextView style="@style/TextViewStyle"
+         	   android:text="Date Of Birth"
+         	   android:layout_below="@id/registration"
+         	   android:id="@+id/manufacturer"/>
+    
+   
+     
+      <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/manufacturer"
+        	  android:hint="Date Of Birth"
+        	  android:layout_below="@id/Father_Name_s_w_d_et"
+        	  android:id="@+id/date_of_birth_et"
+        	  />
+     
+      <TextView style="@style/TextViewStyle"
+         	   android:text="Catogory"
+         	   android:layout_below="@id/manufacturer"
+         	   android:id="@+id/VehicleType"/>
+      
+      <Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/VehicleType"
+    	    	 android:layout_below="@id/date_of_birth_et"
+    	    	 android:id="@+id/vehiclecat_spinner"
+    	    	 android:prompt="@string/vehicle_type_prompt"
+    	    	 android:entries="@array/vehicle_arrays"/>
+     
+      
+       <TextView style="@style/TextViewStyle1"
+         	   android:text="Blood Group"
+         	   android:layout_below="@id/VehicleType"
+         	   android:id="@+id/BikeColor"/>
+        <EditText
+             android:id="@+id/Blood_group_et"
+             style="@style/EditTextStyle"
+             android:layout_alignBottom="@+id/BikeColor"
+             android:layout_toRightOf="@+id/BikeColor"
+             android:hint="Blood Group" />
+       
+         <TextView style="@style/TextViewStyle"
+         	   android:text="Address"
+         	   android:layout_below="@id/BikeColor"
+         	   android:id="@+id/BikeModel"/>
+        
+         <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/BikeModel"
+        	  android:hint="address"
+        	  android:layout_below="@+id/BikeColor"
+        	  android:id="@+id/Addres_et"
+        	  />
+        
+         <TextView style="@style/TextViewStyle"
+         	   android:text="Phone Number"
+         	   android:layout_below="@id/BikeModel"
+         	   android:id="@+id/YearOfManufacture"/>
+         
+          <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/YearOfManufacture"
+        	  android:hint="Phone Number"
+        	  android:layout_below="@id/BikeModel"
+        	  android:id="@+id/Phonenumber_et"
+        	  />
+         
+        <TextView style="@style/TextViewStyle"
+         	   android:text="Licence Number "
+         	   android:layout_below="@id/YearOfManufacture"
+         	   android:id="@+id/RegistrationDate"/>
+          
+          <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/RegistrationDate"
+        	  android:hint="Licence Number"
+        	  android:layout_below="@id/YearOfManufacture"
+        	  android:id="@+id/Licence_number_et"
+        	  />
+          
+            <TextView style="@style/TextViewStyle"
+         	   android:text="LIcence Issue Date"
+         	   android:layout_below="@id/RegistrationDate"
+         	   android:id="@+id/ChassisNumber"/>
+           
+            <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/ChassisNumber"
+        	  android:hint="licence issue Date"
+        	  android:layout_below="@id/RegistrationDate"
+        	  android:id="@+id/licence_issue_date_et"
+        	  
+        	  />
+           
+             <TextView style="@style/TextViewStyle"
+         	   android:text="Licence Valid From"
+         	   android:layout_below="@id/ChassisNumber"
+         	   android:id="@+id/valide_from_date"/>
+            
+            <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/valide_from_date"
+        	  android:hint="Valide From Date"
+        	  android:layout_below="@id/ChassisNumber"
+        	  android:id="@+id/valide_from_date_et"
+        	  />
+            
+            <TextView style="@style/TextViewStyle"
+         	   android:text="Class OF Vehicle"
+         	   android:layout_below="@id/valide_from_date"
+         	   android:id="@+id/FuelType"/>
+             
+             <Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/FuelType"
+    	    	 android:layout_below="@id/valide_from_date_et"
+    	    	 android:id="@+id/calss_of_vehcle_spinner"
+    	    	 android:prompt="@string/fuel_category_prompt"
+    	    	 android:entries="@array/fuel_cat_array"/>
+             
+          
+             
+               <TextView style="@style/TextViewStyle1"
+		         	   android:text="Licence Valid Up TO"
+		         	   android:layout_below="@id/FuelType"
+		         	   android:id="@+id/CC"/>
+              
+              
+              
+               <EditText style="@style/EditTextStyle"
+			        	  android:layout_toRightOf="@id/CC"
+			        	  android:layout_below="@id/FuelType"
+			        	  android:hint="Valid Up To Date"
+			        	  android:layout_alignBaseline="@+id/CC"
+			        	  android:id="@+id/valid_uptodate_et"
+        	  />
+              
+               <TextView style="@style/TextViewStyle"
+         	   android:text="Badge Number"
+         	   android:layout_below="@id/CC"
+         	   android:id="@+id/RegistrationUpto"/>
+               
+                 <EditText style="@style/EditTextStyle"
+		        	  android:layout_toRightOf="@+id/RegistrationUpto"
+		        	  android:layout_below="@id/CC"
+		        	   android:hint="enter badge number"
+		        	  android:id="@+id/RegistrationUpto_et" 
+        	  />
+        	
+               <TextView style="@style/TextViewStyle"
+         	   android:text="Licence With Effect From Date"
+         	   android:layout_below="@id/RegistrationUpto"
+         	   android:id="@+id/FCupto"/>
+              
+               <EditText style="@style/EditTextStyle"
+		        	  android:layout_toRightOf="@id/FCupto"
+		        	  android:layout_below="@+id/RegistrationUpto"
+		        	  android:hint="licence effect date"
+		        	  android:id="@+id/licence_with_effect_date_et"
+        	  />
+           
+                
+                <ImageButton android:layout_marginLeft="40dp"
+                    		 style="@style/ButtonStyle1"
+                    		 android:layout_gravity="center"
+                    		android:layout_alignParentBottom="true"
+                    		android:layout_alignParentLeft="true"
+                    		 android:background="@drawable/ok"
+                    		 android:layout_below="@id/FCupto"
+                    		 android:layout_marginTop="40dp"
+                    		 android:id="@+id/ok_button"/>
+              
+                <ImageButton
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/cancel_button"
+                    style="@style/ButtonStyle1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/FCupto"
+                    android:background="@drawable/cancel" />
+
+        
+              
+                </RelativeLayout>   
+                
+            
+ </ScrollView>
+  
+      
+    
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>       
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFEFEFEF"
+   >
+
+       
+    <TextView
+       style="@style/TitleBar"
+       android:text="@string/AddBike"
+       android:id="@+id/tv" />
+    
+     
+     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> 
+
+           
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:background="#FFEFEFEF"
+    android:id="@+id/relative1" >
+   
+   <TextView style="@style/TextViewStyle"
+        	  android:text="Bike Name"
+        	  android:layout_below="@id/tv"
+        	  android:id="@+id/bike_name"/>
+    
+    <TextView style="@style/TextViewStyle"
+        	  
+        	  android:layout_toRightOf="@id/bike_name"
+        	  android:id="@+id/bike_name_et"
+        	  />
+    
+     <TextView
+         	  style="@style/TextViewStyle"
+        	  android:text="Serial Number"
+        	  android:layout_below="@id/bike_name"
+        	  android:id="@+id/tax_serialnumber"/>
+     
+     <TextView style="@style/TextViewStyle"
+         	  
+        	  android:layout_toRightOf="@id/tax_serialnumber"
+        	  android:layout_below="@id/bike_name"
+        	  android:id="@+id/serialnumber_et"
+        	  android:inputType="text"
+        	  />
+     
+     <TextView style="@style/TextViewStyle"
+         	   android:text="Date Of Tax Payed"
+         	   android:layout_below="@id/tax_serialnumber"
+         	   android:id="@+id/date_roadtax_pay"/>
+     
+   
+     
+      <TextView style="@style/TextViewStyle"
+        	  android:layout_toRightOf="@id/date_roadtax_pay"
+        	  
+        	  android:layout_below="@id/tax_serialnumber"
+        	  android:id="@+id/date_of_birth_et"
+        	  />
+       <TextView style="@style/TextViewStyle"
+         	   android:text="Office Of Tax Payed"
+         	   android:layout_below="@id/date_roadtax_pay"
+         	   android:id="@+id/office_of_tax_payed"/>
+     
+   
+     
+      <TextView style="@style/TextViewStyle"
+        	  android:layout_toRightOf="@id/office_of_tax_payed"
+        	
+        	  android:layout_below="@id/date_roadtax_pay"
+        	  android:id="@+id/office_of_tax_payed_et"
+        	  />
+     
+    <TextView style="@style/TextViewStyle"
+         	   android:text="Amout payed"
+         	   android:layout_below="@id/office_of_tax_payed"
+         	   android:id="@+id/amout_payed"/>
+      
+      <TextView style="@style/TextViewStyle"
+    	    	 android:layout_toRightOf="@id/amout_payed"
+    	    	 android:layout_below="@id/office_of_tax_payed"
+    	    	
+    	    	 android:id="@+id/amount_payed_as_tax_et"
+    	    	/>
+     
+      
+        <TextView style="@style/TextViewStyle"
+         	   android:text="Period From Date"
+         	   android:layout_below="@id/amout_payed"
+         	   android:id="@+id/period_from"/>
+         <TextView
+             android:id="@+id/period_from_et"
+             style="@style/TextViewStyle"
+             android:layout_toRightOf="@+id/period_from"
+             android:layout_below="@id/amout_payed"
+              />
+       
+         <TextView style="@style/TextViewStyle"
+         	   android:text="Period To"
+         	   android:layout_below="@id/period_from"
+         	   android:id="@+id/period_to"/>
+        
+         <TextView style="@style/TextViewStyle"
+        	  android:layout_toRightOf="@id/period_to"
+        	 
+        	  android:layout_below="@+id/period_from"
+        	  android:id="@+id/Period_up_to_et"
+        	  />
+             
+                <ImageButton android:layout_marginLeft="40dp"
+                    		 style="@style/ButtonStyle1"
+                    		 android:layout_gravity="center"
+                    		android:layout_alignParentBottom="true"
+                    		android:layout_alignParentLeft="true"
+                    		 android:background="@drawable/ok"
+                    		 android:layout_below="@id/period_to"
+                    		 android:layout_marginTop="50dp"
+                    		 android:id="@+id/ok_button"/>
+                
+               
+
+                <ImageButton
+                    android:id="@+id/cancel_button"
+                    style="@style/ButtonStyle1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/ok_button"
+                    android:background="@drawable/cancel" />
+
+         
+              
+                </RelativeLayout>   
+                
+            
+ </ScrollView>
+  
+      
+    
+</LinearLayout>

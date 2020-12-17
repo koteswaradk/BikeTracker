@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView 	style="@style/TitleBar"
+        		android:text="@string/Trip"
+        		android:id="@+id/tv"/>
+   
+    
+ 
+    
+   <RelativeLayout 
+   				   android:layout_width="fill_parent"
+    			   android:layout_height="fill_parent"
+    			   android:background="#FFEFEFEF"
+    			   android:id="@+id/relative1"
+    			   android:layout_gravity="center_vertical"
+    			   android:gravity="center" >
+    
+ 
+        <Button android:layout_width="200dp"
+          	   android:layout_height="70dp"
+          	   android:text="@string/departure_trip"
+          	   android:gravity="center"
+          	   android:background="@drawable/buttonselect"
+          	   android:textColor="#FFFFFFFF"
+          	   android:textStyle="bold"
+          	   android:focusable="true"
+          	   android:src="#FF0D72A6"
+          	   android:id="@+id/departure_trip_button"
+          	   
+          	   
+          	  />
+        
+       <Button  android:layout_marginTop="20dp"
+               android:layout_width="200dp"
+          	   android:layout_height="70dp"
+          	   android:text="@string/arrival_trip"
+               android:gravity="center"
+               android:background="@drawable/buttonselect"
+          	   android:textColor="#FFFFFFFF"
+          	   android:textStyle="bold"
+               android:layout_below="@id/departure_trip_button"
+          	   android:id="@+id/arrival_trip_button"/>
+       
+       <!--  <Button 
+               android:layout_marginTop="20dp"
+               android:layout_width="200dp"
+          	   android:layout_height="70dp"
+          	   android:text="@string/addsalesdetails"
+          	   android:gravity="center"
+          	   android:layout_marginBottom="10dp"
+          	   android:background="#FF0D72A6"
+          	   android:textColor="#FFFFFFFF"
+          	   android:textStyle="bold"
+          	   android:layout_below="@id/arrival_trip_button"
+          	   android:id="@+id/add_bike_salesdetails"/>
+        
+        <Button android:layout_width="200dp"
+          	  android:layout_height="70dp"
+          	   android:text="@string/viewdetails"
+          	   android:layout_marginTop="10dp"
+          	   android:gravity="center"
+          	   android:background="#FF0D72A6"
+          	   android:textColor="#FFFFFFFF"
+          	   android:textStyle="bold"
+          	   android:layout_marginBottom="10dp"
+          	   android:layout_below="@id/add_bike_salesdetails"
+          	   android:id="@+id/view_bike_details"/> -->
+    
+    </RelativeLayout>
+    
+    <!-- <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:background="#FFEFEFEF">
+    			
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+   					 	android:id="@+id/relative1" >
+   					 	
+             <TextView 	style="@style/TextViewStyle"
+        	  			android:text="@string/Type"
+        	  			android:layout_marginTop="25dp"
+        	  			android:layout_below="@id/tv"
+        	  			android:id="@+id/Type"/>
+             
+             <RadioGroup 	android:layout_height="wrap_content"
+    	    				android:layout_width="fill_parent"
+    	    				android:orientation="horizontal"
+    	    				android:layout_below="@id/tv"
+    	    				android:gravity="center"
+    	    				android:layout_marginTop="12dp"
+    	    				android:layout_marginLeft="25dp"
+    	    				android:id="@+id/type_rg">
+    	    
+    	    <RadioButton	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/Business"
+    	        		 	android:id="@+id/business_rb"
+    	        		 	android:textSize="14sp"/>
+    	    
+    	     <RadioButton 	android:layout_width="wrap_content"
+    	        		 	android:layout_height="wrap_content"
+    	        		 	android:text="@string/Personal"
+    	        			android:id="@+id/personal_rb"
+    	        			android:textSize="14sp"/>
+    	    
+    	</RadioGroup>	
+    	
+             <TextView style="@style/TextViewStyle1"
+    	    	  android:text="@string/Purpose"
+    	    	  android:layout_below="@id/Type"
+    	    	  android:id="@+id/Purpose"/>
+             
+             <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/Purpose"
+        	  android:layout_below="@id/type_rg"
+        	  android:id="@+id/purpose_et"
+        	  />
+             
+             <TextView style="@style/TextViewStyle"
+                 	   android:text="@string/Client"
+                 	   android:layout_below="@id/Purpose"
+                 	   android:id="@+id/Client"/>
+             
+             <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/Client"
+        	  android:layout_below="@id/purpose_et"
+        	  android:id="@+id/client_et"
+        	  />
+            
+             <TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/Vehicle"
+    	    	  android:layout_below="@id/Client"
+    	    	  android:id="@+id/Vehicle"/>
+    	
+    		<Spinner style="@style/SpinnerStyle"
+    	    		 android:layout_toRightOf="@id/Vehicle"
+    	    		 android:layout_below="@id/client_et"
+    	   	   		 android:id="@+id/vehicle_spinner"
+    	   	   		 android:prompt="@string/vehicle_type_prompt"
+    	   	   		 android:entries="@array/vehicle_arrays"/>
+            
+    		<ImageView 
+    		      android:layout_height="match_parent"
+           		  android:layout_width="match_parent"
+           		  android:layout_below="@id/Client"
+           		  android:src="@drawable/departure"
+           		  android:layout_marginTop="60dp"/>
+    		
+    		 <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="140sp"
+                 android:layout_marginTop="90dp"
+                 android:layout_marginLeft="30dp"
+         	     android:text="@string/DateTime"
+         	     android:layout_below="@id/Client"
+         	     android:id="@+id/dep_datetime"/>
+             
+             <EditText android:layout_width="135sp"
+                 		android:layout_height="30sp"
+                 		android:layout_marginLeft="4sp"
+                 		android:background="@drawable/et"
+                 		android:layout_toRightOf="@id/dep_datetime"
+                 		android:layout_below="@id/vehicle_spinner"
+                 		android:layout_marginTop="30dp"
+                 		android:id="@+id/dep_dt_et"/>
+             
+             <TextView
+                style="@style/TextViewStyleTrip1"
+         	     android:text="@string/OdoReading"
+         	     android:layout_below="@id/dep_datetime"                     
+         	     android:layout_marginLeft="30dp"
+         	     android:id="@+id/DepOdo"/>
+              
+               <EditText style="@style/EditTextStyle2"
+                 		android:layout_toRightOf="@id/DepOdo"
+                 		android:layout_below="@id/dep_dt_et"
+                 		android:layout_marginTop="12dp"
+                 		android:background="@drawable/et"
+                 		android:id="@+id/dep_odo_et"/>
+               
+                <TextView
+                style="@style/TextViewStyle2"
+         	     android:text="@string/Location"
+         	     android:layout_below="@id/DepOdo"
+         	     android:layout_marginLeft="30dp"
+         	     android:id="@+id/DepLocation"/>
+              
+               <EditText style="@style/EditTextStyle2"
+                 		android:layout_toRightOf="@id/DepLocation"
+                 		android:layout_below="@id/dep_odo_et"
+                 		android:layout_marginTop="12dp"
+                 		android:background="@drawable/et"
+                 		android:id="@+id/dep_loc_et"/>
+               
+               <TextView
+                 style="@style/TextViewStyle2"
+         	     android:text="@string/Notes"
+         	     android:layout_marginLeft="30dp"
+         	     android:layout_below="@id/DepLocation"
+         	     android:id="@+id/DepNotes"/>
+              
+               
+                <EditText 
+                    	style="@style/EditTextStyle2"
+                 		android:layout_toRightOf="@id/DepNotes"
+                 		android:layout_below="@id/dep_loc_et"
+                 		android:layout_marginTop="12dp"
+                 		android:background="@drawable/et"
+                 		android:id="@+id/dep_notes_et"/>
+                
+                <ImageView android:layout_height="match_parent"
+           		  android:layout_width="match_parent"
+           		  android:layout_below="@id/DepNotes"
+           		  android:src="@drawable/arrival"
+           		  android:layout_marginTop="40dp"/>
+    		
+                 <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="140sp"
+                 android:layout_marginTop="70dp"
+                  android:layout_marginLeft="30dp"
+         	     android:text="@string/DateTime"
+         	     android:layout_below="@id/DepNotes"
+         	     android:id="@+id/arr_datetime"/>
+             
+             <EditText android:layout_width="135sp"
+                 		android:layout_height="30sp"
+                 		android:layout_marginLeft="4sp"
+                 		android:layout_toRightOf="@id/arr_datetime"
+                 		android:layout_below="@id/dep_notes_et"
+                 		android:layout_marginTop="45dp"
+                 		android:background="@drawable/et"
+                 		android:id="@+id/arr_dt_et"/>
+             
+             <TextView                                                          
+                style="@style/TextViewStyleTrip2"
+         	     android:text="@string/OdoReading"
+         	     android:layout_below="@id/arr_datetime"
+         	     android:layout_marginLeft="30dp"
+         	     android:id="@+id/ArrOdo"/>
+              
+               <EditText style="@style/EditTextStyle2"
+                 		android:layout_toRightOf="@id/ArrOdo"
+                 		android:layout_below="@id/arr_dt_et"
+                 		android:layout_marginTop="12dp"
+                 		android:background="@drawable/et"
+                 		android:id="@+id/arr_odo_et"/>
+               
+                <TextView
+                style="@style/TextViewStyle2"
+         	     android:text="@string/Location"
+         	     android:layout_below="@id/ArrOdo"
+         	      android:layout_marginLeft="30dp"
+         	     android:id="@+id/ArrLocation"/>
+              
+               <EditText style="@style/EditTextStyle2"
+                 		android:layout_toRightOf="@id/ArrLocation"
+                 		android:layout_below="@id/arr_odo_et"
+                 		android:layout_marginTop="12dp"                                 
+                 		android:background="@drawable/et"
+                 		android:id="@+id/arr_loc_et"/>
+               
+               <TextView
+                 style="@style/TextViewStyleTrip"
+         	     android:text="@string/Notes"
+         	     android:layout_below="@id/ArrLocation"
+         	      android:layout_marginLeft="30dp"
+         	     android:id="@+id/ArrNotes"/>
+              
+               
+                <EditText 
+                    	style="@style/EditTextStyle2"
+                 		android:layout_toRightOf="@id/ArrNotes"
+                 		android:layout_below="@id/arr_loc_et"
+                 		android:layout_marginTop="12dp"
+                 		android:background="@drawable/et"
+                 		android:id="@+id/arr_notes_et"/>
+                
+                <ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_below="@id/ArrNotes"
+                    		 android:layout_marginTop="50dp"
+                    		 android:background="@drawable/submit"
+                    		 android:id="@+id/submit_trip_button"/>
+	    
+    	     	<ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_toRightOf="@id/submit_trip_button"
+                    		 android:layout_below="@id/ArrNotes"
+                    		 android:layout_marginTop="50dp"
+                    		 android:background="@drawable/cancel"
+                    		 android:id="@+id/cancel_trip_button"/>
+    	     	<ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_toRightOf="@id/cancel_trip_button"
+                    		 android:layout_below="@id/ArrNotes"
+                    		 android:layout_marginTop="50dp"
+                    		 android:background="@drawable/cancel"
+                    		 android:id="@+id/clear_trip_button"/>
+	
+	</RelativeLayout>
+                
+        
+    </ScrollView> -->
+
+</LinearLayout>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+       
+    <TextView
+        android:id="@+id/text_bikedetails"
+       style="@style/TitleBar"
+       android:text="@string/AddBike"
+        />
+    
+    
+     
+     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> 
+<!-- <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFEFEFEF" > -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFEFEFEF" >
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/tv"
+        android:text="@string/Name" />
+
+    <TextView
+        android:id="@+id/name_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/name"
+        android:text="oneee" />
+
+    <TextView
+        android:id="@+id/registration"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/name"
+        android:text="@string/Registration" />
+
+    <TextView
+        android:id="@+id/manufacturer"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/registration"
+        android:text="@string/Manufacturer" />
+
+    <TextView
+        android:id="@+id/VehicleType"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/manufacturer"
+        android:text="@string/Vehicle_Type" />
+
+    <TextView
+        android:id="@+id/BikeColor"
+        style="@style/TextViewStyle1"
+        android:layout_below="@id/VehicleType"
+        android:text="@string/Bike_Color" />
+
+    <TextView
+        android:id="@+id/BikeModel"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/BikeColor"
+        android:text="@string/Bike_Model" />
+
+    <TextView
+        android:id="@+id/YearOfManufacture"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/BikeModel"
+        android:text="@string/YearOfManufacture" />
+
+    <TextView
+        android:id="@+id/RegistrationDate"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/YearOfManufacture"
+        android:text="@string/RegistrationDate" />
+
+    <TextView
+        android:id="@+id/ChassisNumber"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/RegistrationDate"
+        android:text="@string/ChassisNumber" />
+
+    <TextView
+        android:id="@+id/EngineNumber"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/ChassisNumber"
+        android:text="@string/EngineNumber" />
+
+    <TextView
+        android:id="@+id/FuelType"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/EngineNumber"
+        android:text="@string/FuelType" />
+
+    <TextView
+        android:id="@+id/CC"
+        style="@style/TextViewStyle1"
+        android:layout_below="@id/FuelType"
+        android:text="@string/CC" />
+
+    <TextView
+        android:id="@+id/FCupto"
+        style="@style/TextViewStyle"
+        android:layout_below="@id/CC"
+        android:text="@string/FCupto" />
+
+    <ImageButton
+        android:id="@+id/ok_button"
+        style="@style/ButtonStyle1"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/FCupto"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ok" />
+
+    <TextView
+        android:id="@+id/manufacturer_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/VehicleType"
+        android:layout_toRightOf="@+id/manufacturer"
+        android:text="one" />
+
+    <TextView
+        android:id="@+id/BikeColor_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/BikeColor"
+        android:layout_alignBottom="@+id/BikeColor"
+        android:layout_toRightOf="@+id/BikeColor"
+        android:text="three" />
+
+    <TextView
+        android:id="@+id/vehicletype_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/VehicleType"
+        android:layout_alignBottom="@+id/VehicleType"
+        android:layout_alignLeft="@+id/manufacturer_set"
+        android:text="two" />
+
+    <TextView
+        android:id="@+id/registration_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/manufacturer"
+        android:layout_alignLeft="@+id/manufacturer_set"
+        android:text="@string/AddBike" />
+
+    <TextView
+        android:id="@+id/BikeModel_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/YearOfManufacture"
+        android:layout_toRightOf="@+id/BikeModel"
+        android:text="four" />
+
+    <TextView
+        android:id="@+id/FCupto_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/FCupto"
+        android:layout_alignBottom="@+id/FCupto"
+        android:layout_toRightOf="@+id/FCupto"
+        android:text="eleven" />
+
+    <TextView
+        android:id="@+id/RegistrationDate_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RegistrationDate"
+        android:layout_toRightOf="@+id/YearOfManufacture"
+        android:text="six" />
+
+    <TextView
+        android:id="@+id/ChassisNumber_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_above="@+id/EngineNumber"
+        android:layout_toRightOf="@+id/ChassisNumber"
+        android:text="seven" />
+
+    <TextView
+        android:id="@+id/EngineNumber_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_above="@+id/FuelType"
+        android:layout_toRightOf="@+id/EngineNumber"
+        android:text="eight" />
+
+    <TextView
+        android:id="@+id/YearOfManufacture_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ChassisNumber"
+        android:layout_toRightOf="@+id/RegistrationDate"
+        android:text="five"
+         />
+
+    <TextView
+        android:id="@+id/fueltype_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CC"
+        android:layout_toRightOf="@+id/FuelType"
+        android:text="nine" />
+
+    <TextView
+        android:id="@+id/CC_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/FCupto"
+        android:layout_toRightOf="@+id/CC"
+        android:text="ten" />
+    <TextView
+            android:id="@+id/purchase_date"
+            style="@style/TextViewStyle"
+            android:layout_below="@+id/FCupto"
+            android:text="@string/PurchaseDate" />
+
+        <TextView
+            android:id="@+id/purchase_date_set"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase Date Not Added"
+            android:layout_above="@+id/purchase_price"
+            android:layout_toRightOf="@id/purchase_date"
+           />
+
+        <TextView
+            android:id="@+id/purchase_price"
+            style="@style/TextViewStyle"
+            android:layout_below="@id/purchase_date"
+            android:text="@string/PurchasePrice" />
+
+        <TextView
+            android:id="@+id/purchase_price_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase Price Not Added"
+            android:layout_above="@+id/purchase_notes1"
+            android:layout_toRightOf="@id/purchase_price"
+            />
+
+        <TextView
+            android:id="@+id/purchase_notes1"
+            style="@style/TextViewStyle"
+            android:layout_below="@id/purchase_price"
+      
+            android:text="@string/PurchaseNotes" />
+
+        <TextView
+            android:id="@+id/purchase_notes_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/last"
+            android:layout_toRightOf="@+id/purchase_notes1"
+            android:text="Purchase Note Not Added"
+             />
+        <TextView
+           android:id="@+id/last"
+            style="@style/TextViewStyle"
+            android:layout_below="@id/purchase_notes1"
+            android:text="four"
+            android:visibility="invisible" />
+    
+   
+
+</RelativeLayout>
+ <!-- <include android:layout_below="@+id/relative2"
+     android:layout_alignParentBottom="true"
+     android:layout_alignBottom="@+id/fueltype_set"
+        layout="@layout/purchasedisplay"/>
+                
+     
+ </RelativeLayout> -->
+ </ScrollView>
+  
+      
+    
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>       
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFEFEFEF">
+
+       
+    <TextView
+       style="@style/TitleBar"
+       android:text="@string/AddBike"
+       android:id="@+id/tv" />
+    
+     
+     <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> 
+
+           
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   android:layout_gravity="center_vertical"
+   android:gravity="center"
+   android:layout_below="@id/tv"
+    android:background="#FFEFEFEF"
+    android:id="@+id/relative1" >
+   
+   <!--  <TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/Vehicle"
+    	    	  android:layout_marginTop="15dp"
+    	    	  android:id="@+id/Vehicle"/>
+    	
+    <Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/Vehicle"
+    	    	 android:id="@+id/vehicle_spinner"
+    	    	 android:layout_marginTop="15dp"
+    	    	 android:prompt="@string/vehicle_type_prompt"/> -->
+    	
+    <TextView style="@style/TextViewStyle"
+        	  android:text="Select Bike Name"
+        	 
+        	  android:id="@+id/select_bikename"/>
+    
+    <Spinner style="@style/SpinnerStyle"
+        	  android:hint="Enter Bike Name"
+        	  android:id="@+id/vehicle_spinner"
+        	  android:layout_marginTop="15dp"
+        	  android:layout_toRightOf="@id/select_bikename"
+        	  
+        	  />
+   <TextView style="@style/TextViewStyle"
+        	  android:text="Company Name/Address"
+        	  android:layout_below="@id/select_bikename"
+        	  android:id="@+id/incompanyname_address"/>
+    
+    <EditText style="@style/EdittextNoteStyle"
+        	  android:hint="Enter Name And address"
+        	  android:layout_marginTop="15dp"
+        	   android:layout_below="@id/select_bikename"
+        	  android:layout_toRightOf="@id/incompanyname_address"
+        	  android:id="@+id/incompany_name_address_et"
+        	  />
+    
+    <TextView
+         	  style="@style/TextViewStyle"
+        	  android:text="Certificate/PolicyNo"
+        	  android:layout_below="@id/incompanyname_address"
+        	  android:id="@+id/policy_certificate"/>
+     
+     <EditText style="@style/EditTextStyle"
+         	  android:hint=" policy number"
+        	  android:layout_toRightOf="@id/policy_certificate"
+        	  android:layout_below="@id/incompanyname_address"
+        	  android:id="@+id/policy_certificate_et"
+        	  android:inputType="text"
+        	  />
+     
+     <TextView style="@style/TextViewStyle"
+         	   android:text="Policy Issued Office"
+         	   android:layout_below="@id/policy_certificate"
+         	   android:id="@+id/policy_issued_Office"/>
+     
+   
+     
+      <EditText style="@style/EdittextNoteStyle"
+        	  android:layout_toRightOf="@id/policy_issued_Office"
+        	  android:hint="Policy Issued Office address"
+        	  android:layout_below="@id/policy_certificate"
+        	  android:layout_marginTop="10dp"
+        	  android:id="@+id/policy_issued_Office_et"
+        	  />
+     
+      <TextView style="@style/TextViewStyle"
+         	   android:text="Policy Issue Date"
+         	   android:layout_below="@id/policy_issued_Office"
+         	   android:id="@+id/policy_issue_date"/>
+      
+      <EditText style="@style/EditTextStyle"
+    	    	 android:layout_toRightOf="@id/policy_issue_date"
+    	    	 android:hint="policy issue date"
+    	    	 android:layout_below="@id/policy_issued_Office"
+    	    	 android:id="@+id/policy_issue_date_et"
+    	    	 />
+     
+      
+       <TextView style="@style/TextViewStyle"
+         	   android:text="Policy From Date"
+         	   android:id="@+id/policy_from_date"
+         	   android:layout_below="@id/policy_issue_date"/>
+         <EditText
+             android:id="@+id/policy_from_date_et"
+             style="@style/EditTextStyle"
+             android:layout_toRightOf="@+id/policy_from_date"
+             android:layout_below="@id/policy_issue_date"
+             android:hint="policy from date" />
+       
+         <TextView style="@style/TextViewStyle"
+         	   android:text="Policy Up To Date"
+         	   android:layout_below="@id/policy_from_date"
+         	   android:id="@+id/Policy_upto_Date"/> 
+        
+          <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/Policy_upto_Date"
+        	  android:hint="Policy Up To Date"
+        	  android:layout_below="@+id/policy_from_date"
+        	  android:id="@+id/policy_upto_date_et"
+        	  />
+        
+         <TextView style="@style/TextViewStyle"
+         	   android:text="Insured Name"
+         	   android:layout_below="@id/Policy_upto_Date"
+         	   android:id="@+id/insured_name"/>
+         
+          <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/insured_name"
+        	  android:hint="Name Of Insurer"
+        	  android:layout_below="@id/Policy_upto_Date"
+        	  android:id="@+id/insured_name_et"
+        	  />
+         
+      <TextView style="@style/TextViewStyle"
+         	   android:text="Insured Address "
+         	   android:layout_below="@id/insured_name"
+         	   android:id="@+id/insured_address"/>
+          
+          <EditText style="@style/EdittextNoteStyle"
+        	  android:layout_toRightOf="@id/insured_address"
+        	  android:hint="insured address"
+        	  android:layout_marginTop="10dp"
+        	  android:layout_below="@id/insured_name"
+        	  android:id="@+id/insured_addressr_et"
+        	  />
+           <TextView style="@style/TextViewStyle"
+         	   android:text="Total value"
+         	   android:layout_below="@id/insured_address"
+         	   android:id="@+id/total_value"/>
+           
+            <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/total_value"
+        	  android:hint="total value"
+        	  android:layout_below="@id/insured_address"
+        	  android:id="@+id/total_value_et"
+        	  
+        	  />
+          
+            <TextView style="@style/TextViewStyle"
+         	   android:text="Total Premium"
+         	   android:layout_below="@id/total_value"
+         	   android:id="@+id/total_premimun"/>
+           
+            <EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/total_premimun"
+        	  android:hint="total premium"
+        	  android:layout_below="@id/total_value"
+        	  android:id="@+id/total_premimun_et"
+        	  
+        	  />
+              <ImageButton android:layout_marginLeft="60dp"
+                    		 style="@style/ButtonStyle1"
+                    		 android:layout_gravity="center"
+                    		android:layout_alignParentBottom="true"
+                    		android:layout_alignParentLeft="true"
+                    		 android:background="@drawable/ok"
+                    		 android:layout_below="@id/total_premimun"
+                    		 android:layout_marginTop="20dp"
+                    		 android:id="@+id/ok_button"/>
+                
+              
+                <ImageButton
+                    android:id="@+id/cancel_button"
+                    style="@style/ButtonStyle1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/ok_button"
+                    android:background="@drawable/cancel" /> 
+
+       
+              
+                </RelativeLayout>   
+                
+            
+ </ScrollView>
+  
+      
+    
+</LinearLayout>

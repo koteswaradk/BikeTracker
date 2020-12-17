@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFEFEFEF"
+    android:layout_gravity="center_vertical"
+    android:gravity="center" >
+
+    
+    <TextView
+       style="@style/TitleBar"
+       android:text="Manage Your Expences"
+       android:id="@+id/tv" />
+
+    <ScrollView 
+         android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:layout_gravity="center_vertical"
+         android:background="#FFEFEFEF"
+          >
+    <RelativeLayout
+        
+        android:id="@+id/relative1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+         android:gravity="center"
+        android:background="#FFEFEFEF"
+        >
+
+        <Button
+            android:id="@+id/add_expences_button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/buttonselect"
+            android:layout_marginTop="30dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:src="#FF0D72A6"
+            android:text="Add Your Expences"
+            android:textColor="#FFFFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/view_expences_button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/add_expences_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonselect"
+            android:gravity="center"
+            android:text="View Your Expences"
+            android:textColor="#FFFFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/update_expences_button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/view_expences_button"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+           android:background="@drawable/buttonselect"
+            android:gravity="center"
+            android:text="Update Your Expences"
+            android:textColor="#FFFFFFFF"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/delete_expences_button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/update_expences_button"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonselect"
+            android:gravity="center"
+            android:text="Delete Your Expences"
+            android:textColor="#FFFFFFFF"
+            android:textStyle="bold" />
+
+       
+
+       
+    </RelativeLayout>
+    </ScrollView>
+  
+</LinearLayout>

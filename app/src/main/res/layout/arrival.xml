@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+   	
+   	>
+   	 <TextView 	style="@style/TitleBar"
+        		android:text="@string/arrival_trip"
+        		android:id="@+id/tv"/>
+   	 
+   	 
+   	  <ScrollView 
+   				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:background="#FFEFEFEF">
+   	 
+	 <RelativeLayout 
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:gravity="center"
+                       
+   					 	 >
+       
+             
+             <TextView                                                          
+                style="@style/TextViewStyleTrip2"
+         	     android:text="@string/OdoReading"
+         	     android:layout_marginTop="20dp"
+         	     android:layout_marginLeft="30dp"
+         	     android:id="@+id/ArrOdo"/>
+              
+               <EditText style="@style/EditTextStyle"
+                 		android:layout_toRightOf="@id/ArrOdo"
+                 		android:hint="@string/odometerreading"
+                 		android:layout_marginTop="15dp"
+                 		android:background="@drawable/et"
+                 		android:id="@+id/arr_odo_et"
+                 		android:inputType="number"/>
+               
+                <TextView
+                style="@style/TextViewStyle2"
+         	     android:text="@string/Location"
+         	     android:layout_below="@id/ArrOdo"
+         	      android:layout_marginLeft="30dp"
+         	       android:layout_marginTop="25dp"
+         	     android:id="@+id/ArrLocation"/>
+              
+               <EditText style="@style/EditTextStyle"
+                 		android:layout_toRightOf="@id/ArrLocation"
+                 		android:hint="@string/location"
+                 		android:layout_below="@id/arr_odo_et"
+                 		android:layout_marginTop="18dp"                                 
+                 		android:background="@drawable/et"
+                 		android:id="@+id/arr_loc_et"/>
+               
+               <TextView
+                 style="@style/TextViewStyleTrip"
+         	     android:text="@string/Notes"
+         	     android:layout_below="@id/ArrLocation"
+         	      android:layout_marginLeft="30dp"
+         	       android:layout_marginTop="40dp"
+         	     android:id="@+id/ArrNotes"/>
+              
+               
+                <EditText 
+                    	style="@style/EdittextNoteStyle"
+                 		android:layout_toRightOf="@id/ArrNotes"
+                 		android:layout_below="@id/arr_loc_et"
+                 		android:layout_marginTop="25dp"
+                 		android:background="@drawable/et"
+                 		android:hint="@string/customnote"
+                 		android:id="@+id/arr_notes_et"/>
+                
+                <ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_below="@id/ArrNotes"
+                    		 android:layout_marginTop="50dp"
+                    		 android:background="@drawable/submit"
+                    		 android:id="@+id/arr_submit_button"/>
+	    
+    	     	<ImageButton 
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_marginBottom="10dp"
+                    		 android:layout_toRightOf="@id/arr_submit_button"
+                    		 android:layout_below="@id/ArrNotes"
+                    		 android:layout_marginTop="50dp"
+                    		 android:background="@drawable/cancel"
+                    		 android:id="@+id/arr_cancel_button"/>
+    	     	
+	
+	</RelativeLayout>
+                
+        
+	</ScrollView>
+
+</LinearLayout>

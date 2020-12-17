@@ -1,0 +1,770 @@
+[
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_bikemanage.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/bikemanage.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_remainder.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/remainder.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_aboutapp.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/aboutapp.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_boxbg.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/boxbg.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_et.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/et.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_statistics.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/statistics.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_statistics.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/statistics.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_reminders.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/reminders.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_statistics.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/statistics.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_departure.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/departure.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_viewmybikedetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/viewmybikedetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_addreminder_trans.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/addreminder_trans.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_search.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_cancel_trans.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/cancel_trans.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_managebike.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/managebike.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_bikemanage.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/bikemanage.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_extras.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/extras.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_arrival.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/arrival.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_bikemanage.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/bikemanage.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_submit.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/submit.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/xml_preference_screen.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/xml/preference_screen.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_slider_back.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/slider_back.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_view_licence.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/view_licence.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_extras.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/extras.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_done_bt.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/done_bt.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_add_bike.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/add_bike.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_settings.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/settings.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_select_chart.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/select_chart.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_slider_back.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/slider_back.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_expenses.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/expenses.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_units.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/units.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_xdpifront.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/xdpifront.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_splash_land.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/splash_land.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_routemap.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/routemap.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_add_trans.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/add_trans.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_viewisurancedetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/viewisurancedetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_simple_main.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/simple_main.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_viewroadtaxdetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/viewroadtaxdetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_right_shadow.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/right_shadow.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_timeslider.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/timeslider.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_expencesmain.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/expencesmain.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/menu_activity_main.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/menu/activity_main.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_updatereminder.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/updatereminder.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_splash.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/splash.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout-land_splashscreen.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout-land/splashscreen.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_latitude.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/latitude.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_fuelfillup.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/fuelfillup.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_updateinsurance.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/updateinsurance.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_accumulated.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/accumulated.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_fuelfillup.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/fuelfillup.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_xy_chart.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/xy_chart.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_routemap.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/routemap.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_buttonselect.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/buttonselect.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_ok_col.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/ok_col.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_customgridview.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/customgridview.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_updateroadtax.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/updateroadtax.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_arrival.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/arrival.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_sale_details.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/sale_details.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_latitude.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/latitude.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_ok.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/ok.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_splashscreen.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/splashscreen.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_expenses.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/expenses.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_addnewreminder.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/addnewreminder.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_settings.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/settings.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_latitudemap.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/latitudemap.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_extras.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/extras.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_sale_box.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/sale_box.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_routemap.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/routemap.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_right_shadow.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/right_shadow.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_left_shadow.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/left_shadow.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_salesdetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/salesdetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/menu_splashscreen.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/menu/splashscreen.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_select_report.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/select_report.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_charts.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/charts.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_routemap.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/routemap.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_listview_item.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/listview_item.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_statistics.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/statistics.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_aboutapp.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/aboutapp.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_addvehicle.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/addvehicle.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_remainder.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/remainder.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_trip.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/trip.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_chart.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/chart.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_chart.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/chart.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_chart.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/chart.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_aboutapp.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/aboutapp.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/menu_list_menu_item_longpress.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/menu/list_menu_item_longpress.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_show_trans.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/show_trans.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_splash_land.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/splash_land.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_submit_col.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/submit_col.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_deleyexpenceswithdate.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/deleyexpenceswithdate.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_aboutapp.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/aboutapp.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_updatebikedetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/updatebikedetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_fillup.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/fillup.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/xml_task_preferences.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/xml/task_preferences.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_biketrip.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/biketrip.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_spinner.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/spinner.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_mdpi.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/mdpi.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_expencesdatedisplay.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/expencesdatedisplay.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_settings.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/settings.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_addinsurancedetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/addinsurancedetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_purchase.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/purchase.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_show.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/show.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_datetimeslider.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/datetimeslider.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_addlicence.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/addlicence.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_aboutapp.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/aboutapp.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_add_col.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/add_col.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_statistics.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/statistics.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_dateslidermain.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/dateslidermain.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_latitude.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/latitude.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_ldpi.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/ldpi.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_fuel_economy.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/fuel_economy.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout-land_customtoast.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout-land/customtoast.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_latitude.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/latitude.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_fuelfillup.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/fuelfillup.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_mainpage.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/mainpage.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_done_bt_hover.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/done_bt_hover.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_insurancedetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/insurancedetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/menu_list_menu.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/menu/list_menu.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_deletebikedetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/deletebikedetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_addroadtaxdetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/addroadtaxdetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_right_shadow.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/right_shadow.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_customtoast.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/customtoast.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_extras.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/extras.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_slider_back.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/slider_back.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_splash_land.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/splash_land.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_addreminder_col.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/addreminder_col.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_show_col.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/show_col.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_customdateslider.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/customdateslider.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_dialogbuttons.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/dialogbuttons.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_add.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/add.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_remainder.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/remainder.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_splash.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_addreminder.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/addreminder.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_roadtaxdetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/roadtaxdetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_biketrip.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/biketrip.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_left_shadow.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/left_shadow.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_monthyeardateslider.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/monthyeardateslider.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_cancel.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/cancel.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_submit_trans.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/submit_trans.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_addreminder_col.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/addreminder_col.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_edittext.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/edittext.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_xdpi.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/xdpi.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_displaybikedetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/displaybikedetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_splash_land.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/splash_land.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_search.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/menu_menu_authenticate_xml.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/menu/menu_authenticate_xml.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_fuelfillup.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/fuelfillup.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_reminder_list.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/reminder_list.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_left_shadow.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/left_shadow.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_viewexpences.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/viewexpences.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_purchase_details.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/purchase_details.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable_round_button.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable/round_button.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_routemap.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/routemap.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_extras.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/extras.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_departure.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/departure.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_settings.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/settings.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_bikemanage.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/bikemanage.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_biketrip.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/biketrip.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_expenses.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/expenses.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_wood2.jpg.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/wood2.jpg"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_bketrip.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/bketrip.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_licencedetails.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/licencedetails.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_cancel_col.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/cancel_col.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-xhdpi_chart.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-xhdpi/chart.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_custumalertextrasadd.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/custumalertextrasadd.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_splash.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/splash.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_latitude.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/latitude.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_dialogtitle.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/dialogtitle.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_callsettings.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/callsettings.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_remainder.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/remainder.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_reminder_row.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/reminder_row.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_expenses.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/expenses.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_trip.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/trip.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_search.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-hdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_reminder_edit.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/reminder_edit.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_expenses.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/expenses.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_altdateslider.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/altdateslider.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-ldpi_settings.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-ldpi/settings.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/xml_preference.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/xml/preference.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_fillup.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/fillup.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_bike.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/bike.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/layout_defaultdateslider.xml.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/layout/defaultdateslider.xml"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_ok_trans.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/ok_trans.png"
+    },
+    {
+        "merged": "/Users/koteswara/Desktop/code/BikeTracker/app/build/intermediates/res/merged/debug/drawable-mdpi_splash.png.flat",
+        "source": "/Users/koteswara/Desktop/code/BikeTracker/app/src/main/res/drawable-mdpi/splash.png"
+    }
+]

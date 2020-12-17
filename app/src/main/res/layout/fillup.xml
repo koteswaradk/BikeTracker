@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<TextView 	style="@style/TitleBar"
+	    		android:text="@string/FillUp"
+	    		android:id="@+id/tv"/>	
+	    		
+	
+	 <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> 
+    
+			
+	<RelativeLayout 
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:background="#FFEFEFEF">
+    
+	    <TextView style="@style/TextViewStyle"
+        	  android:text="@string/FillUpType"
+        	  android:layout_below="@id/tv"
+        	  android:id="@+id/FillUpType"/>
+    
+	    <Spinner style="@style/SpinnerStyle"
+	        	 android:layout_toRightOf="@id/FillUpType"
+	        	 android:entries="@array/FillUp_Spinner"
+	        	 android:prompt="@string/Select"
+	        	 android:id="@+id/fillup_type_spinner"
+	        	 />
+    
+	    <TextView style="@style/TextViewStyle6"
+        	  android:text="@string/DateTime"
+        	  android:layout_below="@id/FillUpType"
+        	  android:id="@+id/DateTime"/>
+    
+    	<EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/DateTime"
+        	  android:layout_below="@id/fillup_type_spinner"
+        	  android:hint="@string/datetimenote"
+        	  android:id="@+id/date_time_et"
+        	  /> 
+        	  
+    	<TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/FuelVolume"
+    	    	  android:layout_below="@id/DateTime"
+    	    	  android:id="@+id/FuelVolume"/>
+    	
+    	<EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/FuelVolume"
+        	  android:hint="@string/fuelvolume"
+        	  android:layout_below="@id/date_time_et"
+        	  android:id="@+id/fuel_vol_et"
+        	  android:inputType="number"
+        	  /> 
+        	  
+    	<!-- <RadioGroup android:layout_height="wrap_content"
+    	    		android:layout_width="fill_parent"
+    	    		android:orientation="horizontal"
+    	    		android:layout_below="@id/FuelVolume"
+    	    		android:gravity="center"
+    	    		android:layout_marginTop="12dp"
+    	    		android:id="@+id/fillup_rg">
+    	    
+    	    <RadioButton android:layout_width="wrap_content"
+    	        		 android:layout_height="wrap_content"
+    	        		 android:text="@string/FullTank"
+    	        		 android:id="@+id/fulltank_rb"
+    	        		 android:textSize="14sp"/>
+    	    
+    	     <RadioButton android:layout_width="wrap_content"
+    	        		 android:layout_height="wrap_content"
+    	        		 android:text="@string/ReserveTank"
+    	        		 android:id="@+id/restank_rb"
+    	        		 android:textSize="14sp"/>
+    	    
+    	</RadioGroup>
+    	 -->
+    	<TextView style="@style/TextViewStyle6"
+    	    	  android:text="@string/PricePerLitre"
+    	    	  android:layout_below="@id/FuelVolume"
+    	    	  android:id="@+id/PricePerLitre"/>
+    	
+    	<EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/PricePerLitre"
+        	  android:layout_below="@id/fuel_vol_et"
+        	  android:hint="@string/priceliter"
+        	  android:id="@+id/price_lit_et"
+        	   android:inputType="numberDecimal"
+        	  /> 
+        	  
+    	<TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/OdoReading"
+    	    	  android:layout_below="@id/PricePerLitre"
+    	    	  android:id="@+id/OdoReading"/>
+    	
+    	<EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/OdoReading"
+        	  android:hint="@string/odometerreading"
+        	  android:layout_below="@id/price_lit_et"
+        	  android:id="@+id/odo_read_et"
+        	   android:inputType="number"
+        	  />
+    	
+    	<TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/TotalCost"
+    	    	  android:layout_below="@id/OdoReading"
+    	    	  android:id="@+id/TotalCost"/>
+    	
+    	<EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/TotalCost"
+        	  android:layout_below="@id/odo_read_et"
+        	  android:hint="@string/totalcost"
+        	  android:id="@+id/total_cost_et"
+        	   android:inputType="numberDecimal"
+        	  />
+    	
+    	<TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/Vehicle"
+    	    	  android:layout_below="@id/TotalCost"
+    	    	  android:id="@+id/Vehicle"/>
+    	
+    	<Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/Vehicle"
+    	    	 android:layout_below="@id/total_cost_et"
+    	    	 android:id="@+id/vehicle_spinner"
+    	    	 android:prompt="@string/vehicle_type_prompt"/>
+    	
+    	<TextView style="@style/TextViewStyle1"
+    	    	  android:text="@string/FuelCategory"
+    	    	  android:layout_below="@id/Vehicle"
+    	    	  android:id="@+id/FuelCategory"/>
+    	
+    	<Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/FuelCategory"
+    	    	 android:layout_below="@id/vehicle_spinner"
+    	    	 android:id="@+id/fuelcat_spinner"
+    	    	 android:prompt="@string/fuel_category_prompt"
+    	    	 android:entries="@array/fuel_cat_array"/>
+    	
+    	<TextView style="@style/TextViewStyle6"
+    	    	  android:text="@string/FuelType"
+    	    	  android:layout_below="@id/FuelCategory"
+    	    	  android:id="@+id/FuelType"/>
+    	
+    	<Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/FuelType"
+    	    	 android:layout_below="@id/fuelcat_spinner"
+    	    	 android:id="@+id/fueltype_spinner"
+    	    	 android:prompt="@string/fuel_type_prompt"
+    	    	 android:entries="@array/fuel_type_array"/>
+    	 
+    	<TextView style="@style/TextViewStyle1"
+    	    	  android:text="@string/FuelBrand"
+    	    	  android:layout_below="@id/FuelType"
+    	    	  android:id="@+id/FuelBrand"/>
+    	
+    	<Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/FuelBrand"
+    	    	 android:layout_below="@id/fueltype_spinner"
+    	    	 android:id="@+id/fuelbrand_spinner"
+    	    	 android:prompt="@string/fuel_brand_prompt"
+    	    	 android:entries="@array/fuel_brand_array"/>
+    	
+    	<TextView style="@style/TextViewStyle1"
+    	    	  android:text="@string/FuellingStation"
+    	    	  android:layout_below="@id/FuelBrand"
+    	    	  android:id="@+id/FuellingStation"/>
+    	
+    	<EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/FuellingStation"
+        	  android:hint="@string/fuelstation"
+        	  android:layout_below="@id/fuelbrand_spinner"
+        	  android:id="@+id/fuel_station_et"
+        	  />
+    	
+    	<TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/PaymentType"
+    	    	  android:layout_below="@id/FuellingStation"
+    	    	  android:id="@+id/PaymentType"/>
+    	
+    	<Spinner style="@style/SpinnerStyle"
+    	    	 android:layout_toRightOf="@id/PaymentType"
+    	    	 android:layout_below="@id/fuel_station_et"
+    	    	 android:id="@+id/paymenttype_spinner"
+    	    	 android:prompt="@string/payment_prompt"
+    	    	 android:entries="@array/payment_arrays"/>
+    	
+    	<TextView style="@style/TextViewStyle1"
+    	    	  android:text="@string/FuelAdditive"
+    	    	  android:layout_below="@id/PaymentType"
+    	    	  android:id="@+id/FuelAdditive"/>
+    	
+    	<EditText style="@style/EditTextStyle"
+        	  android:layout_toRightOf="@id/FuelAdditive"
+        	  android:hint="@string/fuelAdditive"
+        	  android:layout_below="@id/paymenttype_spinner"
+        	  android:id="@+id/fuel_additive_et"
+        	  />
+    	
+    	<TextView style="@style/TextViewStyle"
+    	    	  android:text="@string/Notes"
+    	    	  android:layout_below="@id/FuelAdditive"
+    	    	  android:id="@+id/FillupNotes"/>
+    	
+    	<EditText 
+					style="@style/EdittextNoteStyle"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="12sp"
+        	      android:layout_toRightOf="@id/FillupNotes"
+        	      android:layout_below="@id/fuel_additive_et"
+        	      android:hint="@string/customnote"
+        	      android:id="@+id/fillup_notes_et"
+        	  />
+    	
+    	<ImageButton        
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_below="@id/FillupNotes"
+                    		 android:background="@drawable/submit"
+                    		 android:id="@+id/submit_fillup_button"
+                    		 android:layout_alignParentBottom="true"
+                    		 android:layout_marginLeft="40dp"
+                    		  android:layout_marginTop="50dp"
+                    		/>
+	    
+    	<ImageButton        
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_toRightOf="@id/submit_fillup_button"
+                    		 android:layout_below="@id/FillupNotes"
+                       		 android:background="@drawable/cancel"
+                    		 android:id="@+id/cancel_fill_button"
+                    		 android:layout_alignParentBottom="true"
+                    		 android:layout_marginLeft="40dp"
+                    		  android:layout_marginTop="50dp"
+                    		 />
+    	
+    	<!-- <ImageButton         
+                    		 style="@style/ButtonStyle2"
+                    		 android:layout_toRightOf="@id/cancel_fill_button"
+                    		 android:background="@drawable/cancel"
+                    		 android:id="@+id/clear_button"
+                    		 android:layout_marginTop="50dp"
+                    		 android:layout_below="@id/FillupNotes"
+                    		 android:layout_alignParentBottom="true"
+                    		 /> -->
+	</RelativeLayout>    
+
+	</ScrollView>
+	
+</LinearLayout>

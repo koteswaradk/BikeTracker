@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<TextView 	style="@style/TitleBar"
+	    		android:text="@string/Expenses"
+	    		android:id="@+id/tv"/>
+
+	<ScrollView
+	    
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#FFEFEFEF"
+	    android:id="@+id/s1" >
+	    
+
+	    <RelativeLayout
+	       
+	        android:id="@+id/relative1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+
+	        <TextView
+	            android:id="@+id/DateTime"
+	            style="@style/TextViewStyle"
+	            android:layout_below="@id/tv"                            
+	            android:text="@string/DateTime" />                                     
+
+	        <EditText
+	            android:id="@+id/datetime_exp_et"
+	            style="@style/EditTextStyle"
+	            android:hint="@string/datetimenote"
+	            android:layout_toRightOf="@id/DateTime" >
+
+	            <requestFocus />
+	        </EditText>
+
+	        <TextView
+	            android:id="@+id/OdoReading"
+	            style="@style/TextViewStyle"
+	            android:layout_below="@id/DateTime"
+	            android:text="@string/OdoReading" />
+
+	        <EditText
+	            android:id="@+id/odo_read_et"
+	            style="@style/EditTextStyle"
+	            android:hint="@string/odometerreading"
+	            android:layout_below="@id/datetime_exp_et"
+	            android:layout_toRightOf="@id/OdoReading"
+	            android:inputType="number" />
+
+	        <TextView
+	            android:id="@+id/Expenses"
+	            style="@style/TextViewStyle"
+	            android:layout_below="@id/OdoReading"
+	            android:text="@string/Expenses" />
+
+	        <Spinner
+	            android:id="@+id/expenses_spinner"
+	            style="@style/SpinnerStyle"
+	            android:layout_below="@id/odo_read_et"
+	            android:layout_toRightOf="@id/Expenses"
+	            android:entries="@array/expense_type_array"
+	            android:prompt="@string/expense_prompt" />
+
+	        <TextView
+	            android:id="@+id/TotalCost"
+	            style="@style/TextViewStyle1"
+	            android:layout_below="@id/Expenses"
+	            android:text="@string/TotalCost" />
+
+	        <EditText
+	            android:id="@+id/total_cost_et"
+	            style="@style/EditTextStyle"
+	            android:hint="@string/expencestotalcost"
+	            android:layout_below="@id/expenses_spinner"
+	            android:layout_toRightOf="@id/TotalCost"
+	            android:inputType="number" />
+
+	        <TextView
+	            android:id="@+id/Vehicle"
+	            style="@style/TextViewStyle"
+	            android:layout_below="@id/TotalCost"
+	            android:text="@string/Vehicle" />
+
+	        <Spinner
+	            android:id="@+id/vehiclename_spinner"
+	            style="@style/SpinnerStyle"
+	            android:layout_below="@id/total_cost_et"
+	            android:layout_toRightOf="@id/Vehicle"
+	            android:prompt="@string/vehicle_type_prompt" />
+
+	        <TextView
+	            android:id="@+id/Location"
+	            style="@style/TextViewStyle1"
+	            android:layout_below="@id/Vehicle"
+	            android:text="@string/Location" />
+
+	        <EditText
+	            android:id="@+id/location_et"
+	            android:hint="@string/location"
+	            style="@style/EditTextStyle"
+	            android:layout_below="@id/vehiclename_spinner"
+	            android:layout_toRightOf="@id/Location" />
+
+	        <TextView
+	            android:id="@+id/PaymentType"
+	            style="@style/TextViewStyle"
+	            android:layout_below="@id/Location"
+	            android:text="@string/PaymentType" />
+
+	        <Spinner
+	            android:id="@+id/paymenttype_spinner"
+	            style="@style/SpinnerStyle"
+	            android:layout_below="@id/location_et"
+	            android:layout_toRightOf="@id/PaymentType"
+	            android:entries="@array/payment_arrays"
+	            android:prompt="@string/payment_prompt" />
+
+	        <TextView
+	            android:id="@+id/ExpensesNotes"
+	            style="@style/TextViewStyle"
+	            android:layout_below="@id/PaymentType"
+	            android:layout_marginTop="30dp"
+	            android:text="@string/Notes" />
+
+	        <EditText
+	            android:id="@+id/expenses_notes_et"
+	            style="@style/EdittextNoteStyle"
+	            android:layout_below="@id/paymenttype_spinner"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginTop="12dp"	
+	            android:hint="@string/customnote"            
+	            android:layout_toRightOf="@id/ExpensesNotes" 
+	            />
+
+	        <ImageButton
+	            android:id="@+id/submit_expense_button"
+	            style="@style/ButtonStyle2"
+	            android:layout_below="@id/ExpensesNotes"
+	            android:layout_alignParentBottom="true"
+	            android:layout_marginTop="70dp"
+	            android:background="@drawable/submit" />
+
+	        <ImageButton
+	            android:id="@+id/cancel_expense_button"
+	            style="@style/ButtonStyle2"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignRight="@+id/expenses_notes_et"
+	            android:layout_marginRight="20dp"
+	            android:background="@drawable/cancel" />
+	        
+	    </RelativeLayout>
+	   
+	</ScrollView>
+	    
+</LinearLayout>

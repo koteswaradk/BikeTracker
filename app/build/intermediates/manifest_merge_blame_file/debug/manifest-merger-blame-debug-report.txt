@@ -1,0 +1,894 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.stratvave.biketracker.main"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:6:5-68
+11-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+12-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:7:5-80
+12-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:8:5-72
+13-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:8:22-69
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:9:5-81
+14-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.SEND_SMS" />
+15-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:10:5-67
+15-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:11:5-67
+16-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:12:5-79
+17-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+18-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:13:5-79
+18-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+19-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:14:5-76
+19-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:14:22-73
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:9:5-81
+20-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:9:22-78
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:16:5-68
+21-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:16:22-65
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:17:5-66
+22-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:17:22-63
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:18:5-81
+23-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:18:22-78
+24    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+24-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:19:5-77
+24-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:19:22-74
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:20:5-75
+25-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:20:22-72
+26    <uses-permission android:name="android.permission.CALL_PHONE" />
+26-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:21:6-70
+26-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:21:23-67
+27
+28    <application
+28-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:23:5-447:19
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.3.1] /Users/koteswara/.gradle/caches/transforms-2/files-2.1/c560b8721f05ca12656603dd382025ab/core-1.3.1/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@drawable/icon"
+31-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:24:9-38
+32        android:label="@string/app_name"
+32-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:25:9-41
+33        android:theme="@style/MyApp.Theme.Light.NoTitleBar" >
+33-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:26:9-60
+34        <uses-library android:name="com.google.android.maps" >
+34-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:27:9-28:24
+34-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:27:23-61
+35        </uses-library>
+36
+37        <!--
+38             <activity android:name=".SplashScreen" >
+39            <intent-filter>
+40                <action android:name="android.intent.action.MAIN" />
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+43            </intent-filter>
+44        </activity>
+45        -->
+46        <activity
+46-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:37:9-50:20
+47            android:name="com.stratvave.biketracker.main.MainBikeTrackerActivity"
+47-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:38:13-52
+48            android:label="@string/title_activity_main_bike_tracker" >
+48-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:39:13-69
+49            <intent-filter>
+49-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:40:14-44:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:41:17-69
+50-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:41:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:43:17-77
+52-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:43:27-74
+53            </intent-filter>
+54            <!--
+55            <intent-filter>
+56                <action android:name="com.stratvave.biketracker.main.MainBikeTrackerActivity" />
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+59            </intent-filter>
+60            -->
+61        </activity>
+62        <activity android:name="com.stratvave.biketracker.addvehicle.Bike" >
+62-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:51:9-57:20
+62-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:51:19-75
+63            <intent-filter>
+63-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+64                <action android:name="android.intent.action.PICK_ACTIVITY" />
+64-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+64-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+66-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+67            </intent-filter>
+68        </activity>
+69        <activity android:name="com.stratvave.biketracker.addvehicle.AddVehicle" >
+69-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:58:9-64:20
+69-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:58:19-81
+70            <intent-filter>
+70-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+71                <action android:name="android.intent.action.PICK_ACTIVITY" />
+71-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+71-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+73-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+74            </intent-filter>
+75        </activity>
+76        <activity android:name="com.stratvave.biketracker.addvehicle.UpdateBike" >
+76-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:65:9-71:20
+76-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:65:19-81
+77            <intent-filter>
+77-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+78                <action android:name="android.intent.action.PICK_ACTIVITY" />
+78-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+78-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+80-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+81            </intent-filter>
+82        </activity>
+83        <activity android:name="com.stratvave.biketracker.addvehicle.DeleteBikeDetails" >
+83-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:72:9-78:20
+83-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:72:19-88
+84            <intent-filter>
+84-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+85                <action android:name="android.intent.action.PICK_ACTIVITY" />
+85-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+85-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+87-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+88            </intent-filter>
+89        </activity>
+90        <activity android:name="com.stratvave.biketracker.addvehicle.UpdateBikeDetails" >
+90-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:79:9-85:20
+90-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:79:19-88
+91            <intent-filter>
+91-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+92                <action android:name="android.intent.action.PICK_ACTIVITY" />
+92-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+92-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+94-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+95            </intent-filter>
+96        </activity>
+97        <activity android:name="com.stratvave.biketracker.addvehicle.DisplayBikeDetails" >
+97-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:86:9-92:20
+97-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:86:19-89
+98            <intent-filter>
+98-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+99                <action android:name="android.intent.action.PICK_ACTIVITY" />
+99-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+99-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+101-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+102            </intent-filter>
+103        </activity>
+104        <activity android:name="com.stratvave.biketracker.fillup.Fillup" >
+104-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:93:9-99:20
+104-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:93:19-73
+105            <intent-filter>
+105-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+106                <action android:name="android.intent.action.PICK_ACTIVITY" />
+106-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+106-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+108-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+109            </intent-filter>
+110        </activity>
+111        <activity android:name="com.stratvave.biketracker.expenses.Expenses" >
+111-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:100:9-106:20
+111-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:100:19-77
+112            <intent-filter>
+112-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+113                <action android:name="android.intent.action.PICK_ACTIVITY" />
+113-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+113-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+115-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+116            </intent-filter>
+117        </activity>
+118        <activity android:name="com.stratvave.biketracker.expenses.DeletExpencesDetails" >
+118-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:107:9-113:20
+118-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:107:19-89
+119            <intent-filter>
+119-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+120                <action android:name="android.intent.action.PICK_ACTIVITY" />
+120-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+120-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+122-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+123            </intent-filter>
+124        </activity>
+125        <activity android:name="com.stratvave.biketracker.expenses.ViewExpences" >
+125-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:114:9-120:20
+125-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:114:19-81
+126            <intent-filter>
+126-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+127                <action android:name="android.intent.action.PICK_ACTIVITY" />
+127-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+127-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+129-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+130            </intent-filter>
+131        </activity>
+132        <activity android:name="com.stratvave.biketracker.expenses.UpDateExpences" >
+132-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:121:9-127:20
+132-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:121:19-83
+133            <intent-filter>
+133-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+134                <action android:name="android.intent.action.PICK_ACTIVITY" />
+134-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+134-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+136-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+137            </intent-filter>
+138        </activity>
+139        <activity android:name="com.stratvave.biketracker.expenses.Expencesmain" >
+139-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:128:9-134:20
+139-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:128:19-81
+140            <intent-filter>
+140-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+141                <action android:name="android.intent.action.PICK_ACTIVITY" />
+141-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+141-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+143-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+144            </intent-filter>
+145        </activity>
+146        <activity android:name="com.stratvave.biketracker.expenses.ExpencesDateDisplay" >
+146-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:135:9-141:20
+146-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:135:19-88
+147            <intent-filter>
+147-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+148                <action android:name="android.intent.action.PICK_ACTIVITY" />
+148-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+148-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+149
+150                <category android:name="android.intent.category.DEFAULT" />
+150-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+150-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+151            </intent-filter>
+152        </activity>
+153        <activity android:name="com.stratvave.biketracker.expenses.DeleteExpences" >
+153-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:142:9-148:20
+153-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:142:19-83
+154            <intent-filter>
+154-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+155                <action android:name="android.intent.action.PICK_ACTIVITY" />
+155-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+155-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+157-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+158            </intent-filter>
+159        </activity>
+160        <activity android:name="com.stratvave.biketracker.trip.Trip" >
+160-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:149:9-155:20
+160-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:149:19-69
+161            <intent-filter>
+161-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+162                <action android:name="android.intent.action.PICK_ACTIVITY" />
+162-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+162-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+164-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+165            </intent-filter>
+166        </activity>
+167        <activity android:name="com.stratvave.biketracker.reminders.Reminders" >
+167-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:156:9-162:20
+167-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:156:19-79
+168            <intent-filter>
+168-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+169                <action android:name="android.intent.action.PICK_ACTIVITY" />
+169-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+169-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+170
+171                <category android:name="android.intent.category.DEFAULT" />
+171-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+171-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+172            </intent-filter>
+173        </activity>
+174        <activity android:name="com.stratvave.biketracker.reminders.AddReminder" >
+174-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:163:9-169:20
+174-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:163:19-81
+175            <intent-filter>
+175-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+176                <action android:name="android.intent.action.PICK_ACTIVITY" />
+176-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+176-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+177
+178                <category android:name="android.intent.category.DEFAULT" />
+178-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+178-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+179            </intent-filter>
+180        </activity>
+181        <activity android:name="com.stratvave.biketracker.statistics.Statistics" >
+181-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:170:9-176:20
+181-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:170:19-81
+182            <intent-filter>
+182-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+183                <action android:name="android.intent.action.PICK_ACTIVITY" />
+183-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+183-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+185-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+186            </intent-filter>
+187        </activity>
+188        <activity
+188-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:177:9-185:20
+189            android:name="com.stratvave.biketracker.charts.Charts"
+189-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:178:13-67
+190            android:theme="@android:style/Theme.Dialog" >
+190-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:179:13-56
+191            <intent-filter>
+191-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+192                <action android:name="android.intent.action.PICK_ACTIVITY" />
+192-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+192-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+193
+194                <category android:name="android.intent.category.DEFAULT" />
+194-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+194-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+195            </intent-filter>
+196        </activity>
+197        <activity android:name="com.stratvave.biketracker.latitude.BikeTrackerLatitude" >
+197-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:186:9-192:20
+197-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:186:19-88
+198            <intent-filter>
+198-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+199                <action android:name="android.intent.action.PICK_ACTIVITY" />
+199-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+199-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+201-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+202            </intent-filter>
+203        </activity>
+204        <activity android:name="com.stratvave.biketracker.latitude.LatitudeApiSample" >
+204-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:193:9-199:20
+204-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:193:19-86
+205            <intent-filter>
+205-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+206                <action android:name="android.intent.action.PICK_ACTIVITY" />
+206-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+206-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+207
+208                <category android:name="android.intent.category.DEFAULT" />
+208-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+208-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+209            </intent-filter>
+210        </activity>
+211        <activity android:name="com.stratvave.biketracker.routemap.Routemap" >
+211-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:200:9-206:20
+211-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:200:19-77
+212            <intent-filter>
+212-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+213                <action android:name="android.intent.action.PICK_ACTIVITY" />
+213-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+213-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+214
+215                <category android:name="android.intent.category.DEFAULT" />
+215-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+215-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+216            </intent-filter>
+217        </activity>
+218        <activity android:name="com.stratvave.biketracker.settings.Settings" >
+218-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:207:9-213:20
+218-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:207:19-77
+219            <intent-filter>
+219-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+220                <action android:name="android.intent.action.PICK_ACTIVITY" />
+220-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+220-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+221
+222                <category android:name="android.intent.category.DEFAULT" />
+222-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+222-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+223            </intent-filter>
+224        </activity>
+225        <activity android:name="com.stratvave.biketracker.addvehicle.AddBikePurchaseData" >
+225-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:214:9-220:20
+225-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:214:19-90
+226            <intent-filter>
+226-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+227                <action android:name="android.intent.action.PICK_ACTIVITY" />
+227-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+227-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+228
+229                <category android:name="android.intent.category.DEFAULT" />
+229-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+229-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+230            </intent-filter>
+231        </activity>
+232        <activity android:name="com.stratvave.biketracker.addvehicle.AddBikeSalesData" >
+232-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:221:9-227:20
+232-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:221:19-87
+233            <intent-filter>
+233-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+234                <action android:name="android.intent.action.PICK_ACTIVITY" />
+234-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+234-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+235
+236                <category android:name="android.intent.category.DEFAULT" />
+236-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+236-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+237            </intent-filter>
+238        </activity>
+239        <activity
+239-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:228:9-241:20
+240            android:name="com.stratvave.biketracker.latitude.OAuthAccessTokenActivity"
+240-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:229:13-87
+241            android:launchMode="singleTask" >
+241-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:230:13-44
+242            <intent-filter>
+242-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:231:13-240:29
+243                <action android:name="android.intent.action.VIEW" />
+243-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:232:17-69
+243-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:232:25-66
+244
+245                <category android:name="android.intent.category.DEFAULT" />
+245-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+245-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+246                <category android:name="android.intent.category.BROWSABLE" />
+246-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:235:17-78
+246-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:235:27-75
+247
+248                <data
+248-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:237:17-239:45
+249                    android:host="localhost"
+249-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:238:21-45
+250                    android:scheme="http" />
+250-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:239:21-42
+251            </intent-filter>
+252        </activity>
+253        <activity android:name="com.stratvave.biketracker.addvehicle.ViewMyBikeDetails" >
+253-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:242:9-248:20
+253-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:242:19-88
+254            <intent-filter>
+254-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+255                <action android:name="android.intent.action.PICK_ACTIVITY" />
+255-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+255-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+256
+257                <category android:name="android.intent.category.DEFAULT" />
+257-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+257-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+258            </intent-filter>
+259        </activity>
+260        <activity android:name="com.stratvave.biketracker.trip.ArrivalDetails" >
+260-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:249:9-255:20
+260-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:249:19-79
+261            <intent-filter>
+261-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+262                <action android:name="android.intent.action.PICK_ACTIVITY" />
+262-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+262-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+263
+264                <category android:name="android.intent.category.DEFAULT" />
+264-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+264-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+265            </intent-filter>
+266        </activity>
+267        <activity android:name="com.stratvave.biketracker.trip.DepartureDetails" >
+267-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:256:9-262:20
+267-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:256:19-81
+268            <intent-filter>
+268-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+269                <action android:name="android.intent.action.PICK_ACTIVITY" />
+269-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+269-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+270
+271                <category android:name="android.intent.category.DEFAULT" />
+271-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+271-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+272            </intent-filter>
+273        </activity>
+274        <activity android:name="com.stratvave.biketracker.aboutapp.AboutApp" >
+274-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:263:9-269:20
+274-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:263:19-77
+275            <intent-filter>
+275-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+276                <action android:name="android.intent.action.PICK_ACTIVITY" />
+276-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+276-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+277
+278                <category android:name="android.intent.category.DEFAULT" />
+278-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+278-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+279            </intent-filter>
+280        </activity>
+281        <activity android:name="com.stratvave.biketracker.extras.Extras" >
+281-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:270:9-276:20
+281-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:270:19-73
+282            <intent-filter>
+282-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+283                <action android:name="android.intent.action.PICK_ACTIVITY" />
+283-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+283-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+284
+285                <category android:name="android.intent.category.DEFAULT" />
+285-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+285-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+286            </intent-filter>
+287        </activity>
+288        <activity android:name="com.stratvave.biketracker.extras.AddInsuranceDetails" >
+288-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:277:9-283:20
+288-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:277:19-86
+289            <intent-filter>
+289-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+290                <action android:name="android.intent.action.PICK_ACTIVITY" />
+290-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+290-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+291
+292                <category android:name="android.intent.category.DEFAULT" />
+292-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+292-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+293            </intent-filter>
+294        </activity>
+295        <activity android:name="com.stratvave.biketracker.extras.AddLicenceDetails" >
+295-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:284:9-290:20
+295-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:284:19-84
+296            <intent-filter>
+296-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+297                <action android:name="android.intent.action.PICK_ACTIVITY" />
+297-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+297-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+298
+299                <category android:name="android.intent.category.DEFAULT" />
+299-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+299-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+300            </intent-filter>
+301        </activity>
+302        <activity android:name="com.stratvave.biketracker.extras.AddRoadtaxDetails" >
+302-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:291:9-297:20
+302-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:291:19-84
+303            <intent-filter>
+303-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+304                <action android:name="android.intent.action.PICK_ACTIVITY" />
+304-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+304-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+305
+306                <category android:name="android.intent.category.DEFAULT" />
+306-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+306-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+307            </intent-filter>
+308        </activity>
+309        <activity android:name="com.stratvave.biketracker.extras.ViewLicenceDetails" >
+309-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:298:9-304:20
+309-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:298:19-85
+310            <intent-filter>
+310-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+311                <action android:name="android.intent.action.PICK_ACTIVITY" />
+311-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+311-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+312
+313                <category android:name="android.intent.category.DEFAULT" />
+313-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+313-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+314            </intent-filter>
+315        </activity>
+316        <activity android:name="com.stratvave.biketracker.extras.ViewRoadTaxDetails" >
+316-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:305:9-311:20
+316-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:305:19-85
+317            <intent-filter>
+317-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+318                <action android:name="android.intent.action.PICK_ACTIVITY" />
+318-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+318-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+319
+320                <category android:name="android.intent.category.DEFAULT" />
+320-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+320-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+321            </intent-filter>
+322        </activity>
+323        <activity android:name="com.stratvave.biketracker.extras.ViewInsuranceDetails" >
+323-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:312:9-318:20
+323-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:312:19-87
+324            <intent-filter>
+324-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+325                <action android:name="android.intent.action.PICK_ACTIVITY" />
+325-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+325-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+326
+327                <category android:name="android.intent.category.DEFAULT" />
+327-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+327-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+328            </intent-filter>
+329        </activity>
+330        <activity android:name="com.stratvave.biketracker.extras.UpdateLIcenceDetails" >
+330-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:319:9-325:20
+330-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:319:19-87
+331            <intent-filter>
+331-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+332                <action android:name="android.intent.action.PICK_ACTIVITY" />
+332-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+332-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+333
+334                <category android:name="android.intent.category.DEFAULT" />
+334-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+334-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+335            </intent-filter>
+336        </activity>
+337        <activity android:name="com.stratvave.biketracker.extras.UpdateRoadTaxDetails" >
+337-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:326:9-332:20
+337-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:326:19-87
+338            <intent-filter>
+338-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+339                <action android:name="android.intent.action.PICK_ACTIVITY" />
+339-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+339-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+340
+341                <category android:name="android.intent.category.DEFAULT" />
+341-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+341-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+342            </intent-filter>
+343        </activity>
+344        <activity android:name="com.stratvave.biketracker.extras.UpdateInsuranceDetails" >
+344-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:333:9-339:20
+344-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:333:19-89
+345            <intent-filter>
+345-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+346                <action android:name="android.intent.action.PICK_ACTIVITY" />
+346-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+346-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+347
+348                <category android:name="android.intent.category.DEFAULT" />
+348-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+348-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+349            </intent-filter>
+350        </activity>
+351        <activity android:name="com.stratvave.biketracker.extras.LIcenceDetails" >
+351-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:340:9-346:20
+351-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:340:19-81
+352            <intent-filter>
+352-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+353                <action android:name="android.intent.action.PICK_ACTIVITY" />
+353-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+353-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+354
+355                <category android:name="android.intent.category.DEFAULT" />
+355-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+355-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+356            </intent-filter>
+357        </activity>
+358        <activity android:name="com.stratvave.biketracker.extras.RoadTaxDetails" >
+358-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:347:9-353:20
+358-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:347:19-81
+359            <intent-filter>
+359-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+360                <action android:name="android.intent.action.PICK_ACTIVITY" />
+360-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+360-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+361
+362                <category android:name="android.intent.category.DEFAULT" />
+362-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+362-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+363            </intent-filter>
+364        </activity>
+365        <activity android:name="com.stratvave.biketracker.extras.InsuranceDetails" >
+365-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:354:9-360:20
+365-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:354:19-83
+366            <intent-filter>
+366-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+367                <action android:name="android.intent.action.PICK_ACTIVITY" />
+367-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+367-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+368
+369                <category android:name="android.intent.category.DEFAULT" />
+369-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+369-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+370            </intent-filter>
+371        </activity>
+372        <activity
+372-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:361:9-369:20
+373            android:name="com.stratvave.biketracker.reminders.UpdateReminderActivity"
+373-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:362:13-86
+374            android:label="@string/edit_reminder_title" >
+374-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:363:13-56
+375            <intent-filter>
+375-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+376                <action android:name="android.intent.action.PICK_ACTIVITY" />
+376-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+376-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+377
+378                <category android:name="android.intent.category.DEFAULT" />
+378-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+378-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+379            </intent-filter>
+380        </activity>
+381        <activity
+381-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:370:9-378:20
+382            android:name="com.stratvave.biketracker.reminders.TaskPreferences"
+382-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:371:13-79
+383            android:label="@string/app_name" >
+383-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:372:13-45
+384            <intent-filter>
+384-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+385                <action android:name="android.intent.action.PICK_ACTIVITY" />
+385-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+385-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+386
+387                <category android:name="android.intent.category.DEFAULT" />
+387-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+387-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+388            </intent-filter>
+389        </activity>
+390        <activity
+390-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:379:9-387:20
+391            android:name="com.stratvave.biketracker.reminders.ReminderListActivity"
+391-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:380:13-84
+392            android:label="@string/app_name" >
+392-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:381:13-45
+393            <intent-filter>
+393-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+394                <action android:name="android.intent.action.PICK_ACTIVITY" />
+394-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+394-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+395
+396                <category android:name="android.intent.category.DEFAULT" />
+396-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+396-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+397            </intent-filter>
+398        </activity>
+399        <activity
+399-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:388:9-396:20
+400            android:name="com.stratvave.biketracker.reminders.ReminderEditActivity"
+400-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:389:13-84
+401            android:label="@string/app_name" >
+401-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:390:13-45
+402            <intent-filter>
+402-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:52:13-56:29
+403                <action android:name="android.intent.action.PICK_ACTIVITY" />
+403-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:17-78
+403-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:53:25-75
+404
+405                <category android:name="android.intent.category.DEFAULT" />
+405-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:17-76
+405-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:55:27-73
+406            </intent-filter>
+407        </activity>
+408        <activity android:name="com.stratvave.biketracker.main.ChartDemo" >
+408-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:397:9-398:20
+408-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:397:19-44
+409        </activity>
+410        <activity android:name="org.achartengine.chartdemo.demo.chart.XYChartBuilder" />
+410-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:399:9-89
+410-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:399:19-86
+411        <activity android:name="org.achartengine.chartdemo.demo.chart.PieChartBuilder" />
+411-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:400:9-90
+411-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:400:19-87
+412        <activity android:name="org.achartengine.GraphicalActivity" />
+412-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:401:9-71
+412-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:401:19-68
+413        <activity android:name="com.stratvave.biketracker.main.GeneratedChartDemo" />
+413-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:402:9-56
+413-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:402:19-53
+414
+415        <receiver android:name="com.stratvave.biketracker.reminders.OnBootReceiver" >
+415-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:405:9-409:20
+415-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:405:19-84
+416            <intent-filter>
+416-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:406:13-408:29
+417                <action android:name="android.intent.action.BOOT_COMPLETED" />
+417-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:407:17-79
+417-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:407:25-76
+418            </intent-filter>
+419        </receiver>
+420        <receiver android:name="com.stratvave.biketracker.reminders.OnAlarmReceiver" />
+420-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:410:9-88
+420-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:410:19-85
+421
+422        <service android:name="com.stratvave.biketracker.reminders.ReminderService" />
+422-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:412:9-87
+422-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:412:18-84
+423
+424        <receiver android:name="com.stratvave.biketracker.reminders.AlarmReceiver" >
+424-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:414:9-415:20
+424-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:414:19-83
+425        </receiver>
+426
+427        <activity
+427-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:416:10-418:51
+428            android:name="com.stratvave.autoanswer.AutoAnswerPreferenceActivity"
+428-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:417:9-77
+429            android:theme="@style/PreferencesTheme" />
+429-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:418:9-48
+430
+431        <receiver
+431-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:419:9-425:20
+432            android:name="com.stratvave.autoanswer.AutoAnswerReceiver"
+432-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:420:13-71
+433            android:enabled="true" >
+433-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:421:13-35
+434            <intent-filter>
+434-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:422:13-424:29
+435                <action android:name="android.intent.action.PHONE_STATE" />
+435-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:423:17-76
+435-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:423:25-73
+436            </intent-filter>
+437        </receiver>
+438        <receiver
+438-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:426:9-432:20
+439            android:name="com.stratvave.autoanswer.AutoAnswerBootReceiver"
+439-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:427:13-75
+440            android:enabled="true" >
+440-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:428:13-35
+441            <intent-filter>
+441-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:406:13-408:29
+442                <action android:name="android.intent.action.BOOT_COMPLETED" />
+442-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:407:17-79
+442-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:407:25-76
+443            </intent-filter>
+444        </receiver>
+445
+446        <service android:name="com.stratvave.autoanswer.AutoAnswerIntentService" />
+446-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:434:9-84
+446-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:434:18-81
+447
+448        <activity
+448-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:436:10-437:20
+449            android:name="com.stratvave.biketracker.settings.GetCallerInfoActivity"
+449-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:436:20-91
+450            android:theme="@android:style/Theme.Dialog" />
+450-->/Users/koteswara/Desktop/code/BikeTracker/app/src/main/AndroidManifest.xml:436:92-135
+451        <!--
+452        <receiver android:name="com.stratvave.biketracker.settings.PhoneCallReceiver" android:enabled="true">
+453       
+454            
+455            <intent-filter>
+456                <action android:name="android.intent.action.PHONE_STATE" />
+457            </intent-filter>
+458            
+459        </receiver>
+460        -->
+461
+462    </application>
+463
+464</manifest>
